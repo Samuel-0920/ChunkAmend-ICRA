@@ -1,0 +1,61 @@
+{
+  "runtime": {
+    "core": {
+      "k_max": 5,
+      "correction_cap": 0.06,
+      "objective_weights": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "min_gain": 0.01,
+      "correction_penalty": 0.25,
+      "max_local_component_increase": 0.05,
+      "noop_selection_margin": 0.0
+    },
+    "candidate_specs": [
+      {
+        "k": 3,
+        "alpha": 0.7,
+        "transition_weights": [
+          1.0,
+          0.9285714285714287,
+          0.8571428571428572
+        ],
+        "relative_cap": 1.0
+      }
+    ],
+    "response": {
+      "min_samples": 8,
+      "ridge": 0.0001,
+      "condition_limit": 100000000.0
+    },
+    "reversal": {
+      "direction_window": 3,
+      "reversal_cos_threshold": -0.5,
+      "min_consistent_steps": 2,
+      "velocity_epsilon": 1e-06
+    },
+    "risk": null,
+    "tcp_translation_units": "m",
+    "method_id": "COVER_TERMINAL_REF_CAP003",
+    "method_identity": "Q6_C204_COMBO_TERMINAL_PROJECT__REGISTRY_V2",
+    "objective_count_mode": "EXECUTED_ONLY",
+    "response_mode": "PRIMARY",
+    "response_rotation_ridge": 0.0001,
+    "selection_mode": "ACTION_OBJECTIVE",
+    "candidate_ranking_mode": "ACTION_SCORE",
+    "reversal_space": "RESPONSE_TCP",
+    "uncertainty_scale": null,
+    "minimum_prequential_predictions": 0,
+    "response_half_life_completed_pairs": 0,
+    "candidate_evaluation_policy": "FULL_GRID",
+    "preprojection_objective_bound": "DISABLED",
+    "projector_context_cache_mode": "QUERY_PREFIX_LAZY_READONLY_TERMINAL_ENDPOINT_REUSE",
+    "terminal_constraint_mode": "EXECUTED_INTERNAL",
+    "terminal_projection_role": "PROJECT_AND_VALIDATE"
+  },
+  "q_mode": "Q6",
+  "rotation_arm": "ROT_MINJERK_E0",
+  "ranking_correction_penalty": null
+}

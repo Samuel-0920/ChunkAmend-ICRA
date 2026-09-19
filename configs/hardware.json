@@ -1,0 +1,17 @@
+{
+  "horizon": 15,
+  "execute_steps": 5,
+  "control_fps": 30,
+  "q_budget_steps": 3,
+  "minimum_issued_prefix": 5,
+  "publication": "Keep old targets until an explicit reserved boundary; commit complete Q or exact raw fallback",
+  "anchor": "Last old-buffer target immediately before the reserved boundary; verified against completed target before commit",
+  "response_history": "Only actual completed command/measurement pairs at raw-result acceptance",
+  "robot": "UF850",
+  "model_dimensions": 32,
+  "action_dimensions": 7,
+  "denoising_steps": 10,
+  "policy_action_semantics": "six joint targets and gripper opening",
+  "response_input_dimensions": 6,
+  "response_output_dimensions": 3
+}

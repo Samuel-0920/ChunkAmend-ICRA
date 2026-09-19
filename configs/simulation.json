@@ -1,0 +1,16 @@
+{
+  "policy": "pi05_libero",
+  "horizon": 10,
+  "model_dimensions": 32,
+  "action_dimensions": 7,
+  "control_hz": 20,
+  "denoising_steps": 10,
+  "minimum_stride": 5,
+  "initial_delay_steps": 2,
+  "delay_history": 10,
+  "publication": "raw_ready_before_control_tick",
+  "rtc_guidance_dimensions": 32,
+  "rtc_beta": 5,
+  "te_weight_order": "oldest_to_newest",
+  "te_decay": 0.01
+}
