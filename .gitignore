@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+*.tar
+*.zip
+checkpoints/
+datasets/
+runs/
