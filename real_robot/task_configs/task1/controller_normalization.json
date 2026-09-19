@@ -1,0 +1,46 @@
+{
+  "identity": "UF850_100_DEMOS_SDK_TCP_INCREMENT_SYMMETRIC_Q01_Q99_V1",
+  "samples": 33123,
+  "episodes": 100,
+  "formula": "scale_j=max(abs(q01_j),abs(q99_j)); normalized=u/scale; no recentering or clipping",
+  "translation_scale_m": [
+    0.0030635882568359305,
+    0.008227298641204833,
+    0.00790359741210937
+  ],
+  "rotation_scale_rad": [
+    0.004796018713454782,
+    0.01201829912113541,
+    0.010125804176057797
+  ],
+  "q01": [
+    -0.0018366973876953125,
+    -0.008227298641204833,
+    -0.00574296875,
+    -0.004796018713454782,
+    -0.011513022326407584,
+    -0.004912477821240603
+  ],
+  "q99": [
+    0.0030635882568359305,
+    0.004913349761962877,
+    0.00790359741210937,
+    0.002421202241929794,
+    0.01201829912113541,
+    0.010125804176057797
+  ],
+  "zero_maps_to_zero": true,
+  "provenance": {
+    "normalization_joints.npz": "e864d9b335c9dd1b6b74e0f94955e20cb302853bf036833e96e38742c6855562",
+    "normalization_sdk_fk_mm_rad.npy": "233dc4b8173a0caa4acb2ab4f7dbc16bfadf0c43c22851e2ecfa6a91ace04211",
+    "normalization_sources.json": "a857fc96d1f8568547dea05abbac82429c3074e654b0fb97fae4baed750bb10d",
+    "controller_kinematics_readonly.json": "0175d951e77fda6d0efef079c03e455e12407e0c3806a93f6d462ea867772726"
+  },
+  "semantics": "Predicted SDK TCP increments from demonstration absolute joint targets; first anchor is episode initial measured joints. These FK results are not measured TCP feedback.",
+  "cap_006_translation_m": [
+    0.00018381529541015582,
+    0.00049363791847229,
+    0.00047421584472656214
+  ],
+  "adaptation": "Symmetric data-derived normalization; not the LIBERO quantile transform or a manufacturer limit."
+}

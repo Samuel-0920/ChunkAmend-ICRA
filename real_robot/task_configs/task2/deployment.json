@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "robot": "UF850",
+  "robot_ip": "192.168.1.237",
+  "task": "Organize the fruit.",
+  "dataset": "local/uf850_fruit_organization_v001",
+  "policy_config": "pi05_uf850_fruit_organization",
+  "horizon": 15,
+  "execute_steps": 5,
+  "fps": 30,
+  "discrete_state_input": true,
+  "action_semantics": "absolute_joint_radians_and_gripper_open_fraction",
+  "camera_serials": {
+    "front": "218523064118",
+    "wrist": "221123062231"
+  },
+  "checkpoint": "checkpoints/task2/9999",
+  "home_mm_deg": [
+    332.808868,
+    -4.35796,
+    494.787415,
+    179.994118,
+    -0.00149,
+    0.000115
+  ],
+  "rpc_timeout_s": 0.3,
+  "watchdog_s": 0.75,
+  "training_config_confirmed": true,
+  "home_position_tolerance_mm": 4.0,
+  "home_orientation_tolerance_deg": 0.5,
+  "execution_protocol": "operator_end_elapsed_time_v1",
+  "method": "UF850_H15_ASYNC_RTC_Q3_Q6_V001",
+  "rtc": {
+    "seed": 0,
+    "num_steps": 10,
+    "max_guidance_weight": 5.0,
+    "s_min": 5,
+    "d_init": 2,
+    "delay_history": 10
+  },
+  "task_id": "task2",
+  "port": 8022,
+  "controller_normalization": "real_robot/task_configs/task2/controller_normalization.json",
+  "openpi_root": "real_robot/training/task2/training/openpi",
+  "path_base": "repository_root",
+  "configuration_note": "Recorded task settings; configure robot, camera identities and home pose for the local setup before use."
+}

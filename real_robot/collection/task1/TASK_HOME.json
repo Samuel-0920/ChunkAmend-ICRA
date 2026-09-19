@@ -1,0 +1,13 @@
+{
+  "task_id": "lemon_to_basket",
+  "task": "pick up the yellow lemon and place it in the basket",
+  "robot_ip": "192.168.1.237",
+  "initial_pose_mm_degrees": [332.808868, 69.979057, 450.30603, 179.994118, -0.00149, 0.000115],
+  "pose_source": "user_selected_current_sdk_get_position",
+  "evidence": "evidence/LEMON_BASKET_HOME_20260907T160757Z.json",
+  "captured_at_utc": "2026-09-07T16:07:57.295582+00:00",
+  "preparation_start_policy": "return_to_saved_home_if_offset_then_verify_before_teleop",
+  "position_tolerance_mm": 2.0,
+  "orientation_tolerance_degrees": 0.5,
+  "return_path_verified": false
+}

@@ -1,0 +1,2361 @@
+[
+  {
+    "path": "real_robot/collection/task1/launch.py",
+    "source_file": "launch.py",
+    "source_sha256": "dd48ba33dfda1c2651df317d018fb38c3e11dafe5e5d2473846c5d6f7da3f92a",
+    "published_sha256": "d348a51bbe32098be6d1cde3efa172b89b260a60ab61b78c8c8f47e2a587c9fb",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/collection/task1/curate_episodes.py",
+    "source_file": "curate_episodes.py",
+    "source_sha256": "98acf07b9fdb1ad41829e1511544448b3039858fae553e5b92c8367a6bf39d87",
+    "published_sha256": "98acf07b9fdb1ad41829e1511544448b3039858fae553e5b92c8367a6bf39d87",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/camera_preview.py",
+    "source_file": "camera_preview.py",
+    "source_sha256": "01d1b4f556956fb148414c45f6ccb717a669a1814bfc396cfbe650f7cd95108a",
+    "published_sha256": "01d1b4f556956fb148414c45f6ccb717a669a1814bfc396cfbe650f7cd95108a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/CAMERAS.json",
+    "source_file": "CAMERAS.json",
+    "source_sha256": "78a4dd882e7563d9fa67a828107084de8be3287961eb8650b27498ab47e79c6a",
+    "published_sha256": "78a4dd882e7563d9fa67a828107084de8be3287961eb8650b27498ab47e79c6a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/TASK_HOME.json",
+    "source_file": "TASK_HOME.json",
+    "source_sha256": "de5e8deb3df4699705296173c52c010c952d747b0c5275a4af813200a7261fb1",
+    "published_sha256": "de5e8deb3df4699705296173c52c010c952d747b0c5275a4af813200a7261fb1",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/webxr/config.py",
+    "source_file": "config.py",
+    "source_sha256": "1bd8bd8015c13400180b34f00027ee306531b69b2e1be4641797b46607c0343f",
+    "published_sha256": "1bd8bd8015c13400180b34f00027ee306531b69b2e1be4641797b46607c0343f",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/webxr/data_collection/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "d458da8a79625d992fd96f0393511c69a47ac04d0523c905e50282f346cef119",
+    "published_sha256": "d458da8a79625d992fd96f0393511c69a47ac04d0523c905e50282f346cef119",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/webxr/data_collection/camera_manager.py",
+    "source_file": "camera_manager.py",
+    "source_sha256": "906a40cecc37dad613366384bb660ff6ec6a8bb2a071a8bda70287bbadd15ac4",
+    "published_sha256": "906a40cecc37dad613366384bb660ff6ec6a8bb2a071a8bda70287bbadd15ac4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/webxr/data_collection/data_collector.py",
+    "source_file": "data_collector.py",
+    "source_sha256": "46c2a61d8107c20af0413e23d23112e20d36f52e373aadabe3bebb33619baa28",
+    "published_sha256": "46c2a61d8107c20af0413e23d23112e20d36f52e373aadabe3bebb33619baa28",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/webxr/data_collection/episode_recorder.py",
+    "source_file": "episode_recorder.py",
+    "source_sha256": "22754c58722103e44765d49017bead074cb89c371c5adb52764ae23a55c94f83",
+    "published_sha256": "22754c58722103e44765d49017bead074cb89c371c5adb52764ae23a55c94f83",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/webxr/data_collection/episode_trash.py",
+    "source_file": "episode_trash.py",
+    "source_sha256": "c95adeb8c662d79ce0bab063e3478612d8db0843de472c024b02fa9f4ab7e48e",
+    "published_sha256": "c95adeb8c662d79ce0bab063e3478612d8db0843de472c024b02fa9f4ab7e48e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/webxr/data_collection/raw_recorder.py",
+    "source_file": "raw_recorder.py",
+    "source_sha256": "c81e6ea96926d93492a9c0ebe375a9ad970d9e662bcd25d7c5215c7a61da00ba",
+    "published_sha256": "c81e6ea96926d93492a9c0ebe375a9ad970d9e662bcd25d7c5215c7a61da00ba",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/webxr/index.html",
+    "source_file": "index.html",
+    "source_sha256": "e2b5cd4a10f0b3a414f262fdaa937c57ad7c09cd0c0cda215a7db289f77f6557",
+    "published_sha256": "e2b5cd4a10f0b3a414f262fdaa937c57ad7c09cd0c0cda215a7db289f77f6557",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/webxr/robot_control_with_data_collection_reset.py",
+    "source_file": "robot_control_with_data_collection_reset.py",
+    "source_sha256": "734f7c09bd520a1ec65d0eb2dfe8db9c7114fc60d006cb4558055a283877bf19",
+    "published_sha256": "734f7c09bd520a1ec65d0eb2dfe8db9c7114fc60d006cb4558055a283877bf19",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task1/webxr/teleop_diagnostics.py",
+    "source_file": "teleop_diagnostics.py",
+    "source_sha256": "2019c0ed1bad59f8a09d16eb8cb15cf2dcc9b347e8938d6984a43852d24404a3",
+    "published_sha256": "2019c0ed1bad59f8a09d16eb8cb15cf2dcc9b347e8938d6984a43852d24404a3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/launch.py",
+    "source_file": "launch.py",
+    "source_sha256": "4eeeb0426e617acaa0a1b351397a9efb30c571fe77d33c7018bc30b07d5b2296",
+    "published_sha256": "4f328cd83abe8dadac11aef7867c1d71c0ce8a4c1e33804d0c4d5665b41e0d93",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/collection/task2/start_collection.py",
+    "source_file": "start_collection.py",
+    "source_sha256": "a63b1430ef8b53907d6b0791a4ff9bfbb07709be8200aa8e842dae51a82cbfce",
+    "published_sha256": "a63b1430ef8b53907d6b0791a4ff9bfbb07709be8200aa8e842dae51a82cbfce",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/task_spec.py",
+    "source_file": "task_spec.py",
+    "source_sha256": "a9bb371541ec0677cc33bc8c83afabcb5cf7ab3426dc9da1acefdd30d54f6cec",
+    "published_sha256": "a9bb371541ec0677cc33bc8c83afabcb5cf7ab3426dc9da1acefdd30d54f6cec",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/curate_episodes.py",
+    "source_file": "curate_episodes.py",
+    "source_sha256": "98acf07b9fdb1ad41829e1511544448b3039858fae553e5b92c8367a6bf39d87",
+    "published_sha256": "98acf07b9fdb1ad41829e1511544448b3039858fae553e5b92c8367a6bf39d87",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/camera_preview.py",
+    "source_file": "camera_preview.py",
+    "source_sha256": "01d1b4f556956fb148414c45f6ccb717a669a1814bfc396cfbe650f7cd95108a",
+    "published_sha256": "01d1b4f556956fb148414c45f6ccb717a669a1814bfc396cfbe650f7cd95108a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/CAMERAS.json",
+    "source_file": "CAMERAS.json",
+    "source_sha256": "78a4dd882e7563d9fa67a828107084de8be3287961eb8650b27498ab47e79c6a",
+    "published_sha256": "78a4dd882e7563d9fa67a828107084de8be3287961eb8650b27498ab47e79c6a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/TASK_HOME.json",
+    "source_file": "TASK_HOME.json",
+    "source_sha256": "5673a77c4c609bb0dee05b10b8c7aee2e07a6e98abf3e350f8e6f5a69fb35146",
+    "published_sha256": "5673a77c4c609bb0dee05b10b8c7aee2e07a6e98abf3e350f8e6f5a69fb35146",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/TASK_SPEC.json",
+    "source_file": "TASK_SPEC.json",
+    "source_sha256": "c21ace3cb9cc9a9ea7bc6279bd07d1439df5babd769bd8b5c1b7cec14a0bf37b",
+    "published_sha256": "c21ace3cb9cc9a9ea7bc6279bd07d1439df5babd769bd8b5c1b7cec14a0bf37b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/SCHEMA.zh-CN.md",
+    "source_file": "SCHEMA.zh-CN.md",
+    "source_sha256": "474566d4d79aae8eac46ad376cada03bd4ce61658dadea78b322f3947fa0f5d3",
+    "published_sha256": "474566d4d79aae8eac46ad376cada03bd4ce61658dadea78b322f3947fa0f5d3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/webxr/config.py",
+    "source_file": "config.py",
+    "source_sha256": "6648e7c28e34a42164e4d6ebe6e6e10c1dc364c296fe45f0461885435defd520",
+    "published_sha256": "6648e7c28e34a42164e4d6ebe6e6e10c1dc364c296fe45f0461885435defd520",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/webxr/data_collection/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "d458da8a79625d992fd96f0393511c69a47ac04d0523c905e50282f346cef119",
+    "published_sha256": "d458da8a79625d992fd96f0393511c69a47ac04d0523c905e50282f346cef119",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/webxr/data_collection/camera_manager.py",
+    "source_file": "camera_manager.py",
+    "source_sha256": "906a40cecc37dad613366384bb660ff6ec6a8bb2a071a8bda70287bbadd15ac4",
+    "published_sha256": "906a40cecc37dad613366384bb660ff6ec6a8bb2a071a8bda70287bbadd15ac4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/webxr/data_collection/data_collector.py",
+    "source_file": "data_collector.py",
+    "source_sha256": "46c2a61d8107c20af0413e23d23112e20d36f52e373aadabe3bebb33619baa28",
+    "published_sha256": "46c2a61d8107c20af0413e23d23112e20d36f52e373aadabe3bebb33619baa28",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/webxr/data_collection/episode_recorder.py",
+    "source_file": "episode_recorder.py",
+    "source_sha256": "22754c58722103e44765d49017bead074cb89c371c5adb52764ae23a55c94f83",
+    "published_sha256": "22754c58722103e44765d49017bead074cb89c371c5adb52764ae23a55c94f83",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/webxr/data_collection/episode_trash.py",
+    "source_file": "episode_trash.py",
+    "source_sha256": "c95adeb8c662d79ce0bab063e3478612d8db0843de472c024b02fa9f4ab7e48e",
+    "published_sha256": "c95adeb8c662d79ce0bab063e3478612d8db0843de472c024b02fa9f4ab7e48e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/webxr/data_collection/raw_recorder.py",
+    "source_file": "raw_recorder.py",
+    "source_sha256": "57e0ad1d3df5f2e03fe6c0ce01f704a1b5ac21a5231afe4a3bb859241e554f2b",
+    "published_sha256": "57e0ad1d3df5f2e03fe6c0ce01f704a1b5ac21a5231afe4a3bb859241e554f2b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/webxr/index.html",
+    "source_file": "index.html",
+    "source_sha256": "e2b5cd4a10f0b3a414f262fdaa937c57ad7c09cd0c0cda215a7db289f77f6557",
+    "published_sha256": "e2b5cd4a10f0b3a414f262fdaa937c57ad7c09cd0c0cda215a7db289f77f6557",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/webxr/robot_control_with_data_collection_reset.py",
+    "source_file": "robot_control_with_data_collection_reset.py",
+    "source_sha256": "9dba9e114c1c77d84f21a8e57d7572419aa035169786c5c1a9ee70fa8606be0c",
+    "published_sha256": "9dba9e114c1c77d84f21a8e57d7572419aa035169786c5c1a9ee70fa8606be0c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task2/webxr/teleop_diagnostics.py",
+    "source_file": "teleop_diagnostics.py",
+    "source_sha256": "2019c0ed1bad59f8a09d16eb8cb15cf2dcc9b347e8938d6984a43852d24404a3",
+    "published_sha256": "2019c0ed1bad59f8a09d16eb8cb15cf2dcc9b347e8938d6984a43852d24404a3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/launch.py",
+    "source_file": "launch.py",
+    "source_sha256": "4eeeb0426e617acaa0a1b351397a9efb30c571fe77d33c7018bc30b07d5b2296",
+    "published_sha256": "4f328cd83abe8dadac11aef7867c1d71c0ce8a4c1e33804d0c4d5665b41e0d93",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/collection/task3/start_collection.py",
+    "source_file": "start_collection.py",
+    "source_sha256": "9ce2d21a20eb52caea6bdacb3b5d66da414b1c7479fefdd8684b97fdbbe74b90",
+    "published_sha256": "9ce2d21a20eb52caea6bdacb3b5d66da414b1c7479fefdd8684b97fdbbe74b90",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/task_spec.py",
+    "source_file": "task_spec.py",
+    "source_sha256": "a9bb371541ec0677cc33bc8c83afabcb5cf7ab3426dc9da1acefdd30d54f6cec",
+    "published_sha256": "a9bb371541ec0677cc33bc8c83afabcb5cf7ab3426dc9da1acefdd30d54f6cec",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/curate_episodes.py",
+    "source_file": "curate_episodes.py",
+    "source_sha256": "98acf07b9fdb1ad41829e1511544448b3039858fae553e5b92c8367a6bf39d87",
+    "published_sha256": "98acf07b9fdb1ad41829e1511544448b3039858fae553e5b92c8367a6bf39d87",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/camera_preview.py",
+    "source_file": "camera_preview.py",
+    "source_sha256": "01d1b4f556956fb148414c45f6ccb717a669a1814bfc396cfbe650f7cd95108a",
+    "published_sha256": "01d1b4f556956fb148414c45f6ccb717a669a1814bfc396cfbe650f7cd95108a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/CAMERAS.json",
+    "source_file": "CAMERAS.json",
+    "source_sha256": "78a4dd882e7563d9fa67a828107084de8be3287961eb8650b27498ab47e79c6a",
+    "published_sha256": "78a4dd882e7563d9fa67a828107084de8be3287961eb8650b27498ab47e79c6a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/TASK_HOME.json",
+    "source_file": "TASK_HOME.json",
+    "source_sha256": "104b919d493fa98c0d77bb52e38ba50f6d7bf840b6a109a5fd1cfe5bcf5ddb80",
+    "published_sha256": "104b919d493fa98c0d77bb52e38ba50f6d7bf840b6a109a5fd1cfe5bcf5ddb80",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/TASK_SPEC.json",
+    "source_file": "TASK_SPEC.json",
+    "source_sha256": "b4190fb9186d05820fe9e060ab9faa6d0122cc7f3dcc364438cad8e7d20fa9d6",
+    "published_sha256": "b4190fb9186d05820fe9e060ab9faa6d0122cc7f3dcc364438cad8e7d20fa9d6",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/SCHEMA.zh-CN.md",
+    "source_file": "SCHEMA.zh-CN.md",
+    "source_sha256": "474566d4d79aae8eac46ad376cada03bd4ce61658dadea78b322f3947fa0f5d3",
+    "published_sha256": "474566d4d79aae8eac46ad376cada03bd4ce61658dadea78b322f3947fa0f5d3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/webxr/config.py",
+    "source_file": "config.py",
+    "source_sha256": "9ec0a8c9cee3d075a4795fcab570283c6dc97827cde325823437fa9213fdf40f",
+    "published_sha256": "9ec0a8c9cee3d075a4795fcab570283c6dc97827cde325823437fa9213fdf40f",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/webxr/data_collection/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "d458da8a79625d992fd96f0393511c69a47ac04d0523c905e50282f346cef119",
+    "published_sha256": "d458da8a79625d992fd96f0393511c69a47ac04d0523c905e50282f346cef119",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/webxr/data_collection/camera_manager.py",
+    "source_file": "camera_manager.py",
+    "source_sha256": "906a40cecc37dad613366384bb660ff6ec6a8bb2a071a8bda70287bbadd15ac4",
+    "published_sha256": "906a40cecc37dad613366384bb660ff6ec6a8bb2a071a8bda70287bbadd15ac4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/webxr/data_collection/data_collector.py",
+    "source_file": "data_collector.py",
+    "source_sha256": "46c2a61d8107c20af0413e23d23112e20d36f52e373aadabe3bebb33619baa28",
+    "published_sha256": "46c2a61d8107c20af0413e23d23112e20d36f52e373aadabe3bebb33619baa28",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/webxr/data_collection/episode_recorder.py",
+    "source_file": "episode_recorder.py",
+    "source_sha256": "22754c58722103e44765d49017bead074cb89c371c5adb52764ae23a55c94f83",
+    "published_sha256": "22754c58722103e44765d49017bead074cb89c371c5adb52764ae23a55c94f83",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/webxr/data_collection/episode_trash.py",
+    "source_file": "episode_trash.py",
+    "source_sha256": "c95adeb8c662d79ce0bab063e3478612d8db0843de472c024b02fa9f4ab7e48e",
+    "published_sha256": "c95adeb8c662d79ce0bab063e3478612d8db0843de472c024b02fa9f4ab7e48e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/webxr/data_collection/raw_recorder.py",
+    "source_file": "raw_recorder.py",
+    "source_sha256": "57e0ad1d3df5f2e03fe6c0ce01f704a1b5ac21a5231afe4a3bb859241e554f2b",
+    "published_sha256": "57e0ad1d3df5f2e03fe6c0ce01f704a1b5ac21a5231afe4a3bb859241e554f2b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/webxr/index.html",
+    "source_file": "index.html",
+    "source_sha256": "e2b5cd4a10f0b3a414f262fdaa937c57ad7c09cd0c0cda215a7db289f77f6557",
+    "published_sha256": "e2b5cd4a10f0b3a414f262fdaa937c57ad7c09cd0c0cda215a7db289f77f6557",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/webxr/robot_control_with_data_collection_reset.py",
+    "source_file": "robot_control_with_data_collection_reset.py",
+    "source_sha256": "9dba9e114c1c77d84f21a8e57d7572419aa035169786c5c1a9ee70fa8606be0c",
+    "published_sha256": "9dba9e114c1c77d84f21a8e57d7572419aa035169786c5c1a9ee70fa8606be0c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3/webxr/teleop_diagnostics.py",
+    "source_file": "teleop_diagnostics.py",
+    "source_sha256": "2019c0ed1bad59f8a09d16eb8cb15cf2dcc9b347e8938d6984a43852d24404a3",
+    "published_sha256": "2019c0ed1bad59f8a09d16eb8cb15cf2dcc9b347e8938d6984a43852d24404a3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/LICENSE",
+    "source_file": "LICENSE",
+    "source_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "published_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/README.md",
+    "source_file": "README.md",
+    "source_sha256": "567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5",
+    "published_sha256": "c19c05ca7e63b7bedcfc0ce3c5737c18b9576f5c086b883d5e6e40e664776bd3",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/pyproject.toml",
+    "source_file": "pyproject.toml",
+    "source_sha256": "e1f457bd81622a47a4c4de17b92815977ac5fcd40116bec92398eb400bf76483",
+    "published_sha256": "e1f457bd81622a47a4c4de17b92815977ac5fcd40116bec92398eb400bf76483",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/uv.lock",
+    "source_file": "uv.lock",
+    "source_sha256": "348276435e99e44d02d5c94f8a71289745f825ca293336d3bdaecba26e497719",
+    "published_sha256": "348276435e99e44d02d5c94f8a71289745f825ca293336d3bdaecba26e497719",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/.python-version",
+    "source_file": ".python-version",
+    "source_sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94",
+    "published_sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/conftest.py",
+    "source_file": "conftest.py",
+    "source_sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+    "published_sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/gemma.py",
+    "source_file": "gemma.py",
+    "source_sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a",
+    "published_sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/gemma_fast.py",
+    "source_file": "gemma_fast.py",
+    "source_sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa",
+    "published_sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/lora.py",
+    "source_file": "lora.py",
+    "source_sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289",
+    "published_sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/lora_test.py",
+    "source_file": "lora_test.py",
+    "source_sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+    "published_sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/model.py",
+    "source_file": "model.py",
+    "source_sha256": "0d74bc1d8f4623ac3d8e543710b8bf75f9b95e588a3ebf6127c659e001385cff",
+    "published_sha256": "0d74bc1d8f4623ac3d8e543710b8bf75f9b95e588a3ebf6127c659e001385cff",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/model_test.py",
+    "source_file": "model_test.py",
+    "source_sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21",
+    "published_sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/pi0.py",
+    "source_file": "pi0.py",
+    "source_sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342",
+    "published_sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/pi0_config.py",
+    "source_file": "pi0_config.py",
+    "source_sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa",
+    "published_sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/pi0_fast.py",
+    "source_file": "pi0_fast.py",
+    "source_sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3",
+    "published_sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/pi0_test.py",
+    "source_file": "pi0_test.py",
+    "source_sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe",
+    "published_sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/siglip.py",
+    "source_file": "siglip.py",
+    "source_sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32",
+    "published_sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/tokenizer.py",
+    "source_file": "tokenizer.py",
+    "source_sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+    "published_sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/tokenizer_test.py",
+    "source_file": "tokenizer_test.py",
+    "source_sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517",
+    "published_sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/utils/fsq_tokenizer.py",
+    "source_file": "fsq_tokenizer.py",
+    "source_sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f",
+    "published_sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models/vit.py",
+    "source_file": "vit.py",
+    "source_sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93",
+    "published_sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models_pytorch/gemma_pytorch.py",
+    "source_file": "gemma_pytorch.py",
+    "source_sha256": "225092e06509da0ae37bb9dca55c00d2804255bb1496f7c8700304b4c52a95eb",
+    "published_sha256": "225092e06509da0ae37bb9dca55c00d2804255bb1496f7c8700304b4c52a95eb",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models_pytorch/pi0_pytorch.py",
+    "source_file": "pi0_pytorch.py",
+    "source_sha256": "dcd7b6f508808ce4b7170a1720a4c62c6da04edae3652d16c94a469dca924e16",
+    "published_sha256": "dcd7b6f508808ce4b7170a1720a4c62c6da04edae3652d16c94a469dca924e16",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models_pytorch/preprocessing_pytorch.py",
+    "source_file": "preprocessing_pytorch.py",
+    "source_sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6",
+    "published_sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+    "source_file": "configuration_gemma.py",
+    "source_sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+    "published_sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+    "source_file": "modeling_gemma.py",
+    "source_sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+    "published_sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+    "source_file": "modeling_paligemma.py",
+    "source_sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+    "published_sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+    "source_file": "check.py",
+    "source_sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245",
+    "published_sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+    "source_file": "modeling_siglip.py",
+    "source_sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+    "published_sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/policies/aloha_policy.py",
+    "source_file": "aloha_policy.py",
+    "source_sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d",
+    "published_sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/policies/droid_policy.py",
+    "source_file": "droid_policy.py",
+    "source_sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26",
+    "published_sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/policies/libero_policy.py",
+    "source_file": "libero_policy.py",
+    "source_sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a",
+    "published_sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/policies/policy.py",
+    "source_file": "policy.py",
+    "source_sha256": "a2ac5236e23b11d0f5a840d4a8fef148d89dba921d5452ec5dfcd5a6ffa46f20",
+    "published_sha256": "a2ac5236e23b11d0f5a840d4a8fef148d89dba921d5452ec5dfcd5a6ffa46f20",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/policies/policy_config.py",
+    "source_file": "policy_config.py",
+    "source_sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52",
+    "published_sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/policies/policy_test.py",
+    "source_file": "policy_test.py",
+    "source_sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683",
+    "published_sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/policies/uf850_policy.py",
+    "source_file": "uf850_policy.py",
+    "source_sha256": "d33def9af74c37f4fd59bdf26ea6b2214a9af08bc274988044c151f26f29e2dc",
+    "published_sha256": "d33def9af74c37f4fd59bdf26ea6b2214a9af08bc274988044c151f26f29e2dc",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/py.typed",
+    "source_file": "py.typed",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/serving/websocket_policy_server.py",
+    "source_file": "websocket_policy_server.py",
+    "source_sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026",
+    "published_sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/shared/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/shared/array_typing.py",
+    "source_file": "array_typing.py",
+    "source_sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026",
+    "published_sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/shared/download.py",
+    "source_file": "download.py",
+    "source_sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2",
+    "published_sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/shared/download_test.py",
+    "source_file": "download_test.py",
+    "source_sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072",
+    "published_sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/shared/image_tools.py",
+    "source_file": "image_tools.py",
+    "source_sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767",
+    "published_sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/shared/image_tools_test.py",
+    "source_file": "image_tools_test.py",
+    "source_sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+    "published_sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/shared/nnx_utils.py",
+    "source_file": "nnx_utils.py",
+    "source_sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+    "published_sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/shared/normalize.py",
+    "source_file": "normalize.py",
+    "source_sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d",
+    "published_sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/shared/normalize_test.py",
+    "source_file": "normalize_test.py",
+    "source_sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af",
+    "published_sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/checkpoints.py",
+    "source_file": "checkpoints.py",
+    "source_sha256": "3cc32682ec3609e9075dabd991488edb9d7f6c045443f58963d733f99c468dbd",
+    "published_sha256": "3cc32682ec3609e9075dabd991488edb9d7f6c045443f58963d733f99c468dbd",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/config.py",
+    "source_file": "config.py",
+    "source_sha256": "454f1186bdcbc1e0847c008146004544c636b45d1fd9d3679d8bf4acc32c4455",
+    "published_sha256": "454f1186bdcbc1e0847c008146004544c636b45d1fd9d3679d8bf4acc32c4455",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/data_loader.py",
+    "source_file": "data_loader.py",
+    "source_sha256": "4d0b055ac28527c1ab1f0ba7496057722c7c748c88564a8de2ff4fac650e97c9",
+    "published_sha256": "4d0b055ac28527c1ab1f0ba7496057722c7c748c88564a8de2ff4fac650e97c9",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/data_loader_test.py",
+    "source_file": "data_loader_test.py",
+    "source_sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815",
+    "published_sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/droid_rlds_dataset.py",
+    "source_file": "droid_rlds_dataset.py",
+    "source_sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4",
+    "published_sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/misc/polaris_config.py",
+    "source_file": "polaris_config.py",
+    "source_sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8",
+    "published_sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/misc/roboarena_config.py",
+    "source_file": "roboarena_config.py",
+    "source_sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01",
+    "published_sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/optimizer.py",
+    "source_file": "optimizer.py",
+    "source_sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa",
+    "published_sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/sharding.py",
+    "source_file": "sharding.py",
+    "source_sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985",
+    "published_sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/uf850_config.py",
+    "source_file": "uf850_config.py",
+    "source_sha256": "a75b03dcd185163078560ec19b3255ca1bfa689daa9b82be099e9fd23e55a35a",
+    "published_sha256": "a75b03dcd185163078560ec19b3255ca1bfa689daa9b82be099e9fd23e55a35a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/utils.py",
+    "source_file": "utils.py",
+    "source_sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+    "published_sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/training/weight_loaders.py",
+    "source_file": "weight_loaders.py",
+    "source_sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4",
+    "published_sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/transforms.py",
+    "source_file": "transforms.py",
+    "source_sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4",
+    "published_sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/src/openpi/transforms_test.py",
+    "source_file": "transforms_test.py",
+    "source_sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8",
+    "published_sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/pyproject.toml",
+    "source_file": "pyproject.toml",
+    "source_sha256": "a855b2b235b21d584c884fcaae6d39778c76b05c6600ee37ad7cbe1aac24f08d",
+    "published_sha256": "a855b2b235b21d584c884fcaae6d39778c76b05c6600ee37ad7cbe1aac24f08d",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "published_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+    "source_file": "action_chunk_broker.py",
+    "source_sha256": "019b9d69cb26cc681331a2f95dbe60a2cc7b02d6d309c5d15b6457ab39798234",
+    "published_sha256": "019b9d69cb26cc681331a2f95dbe60a2cc7b02d6d309c5d15b6457ab39798234",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/base_policy.py",
+    "source_file": "base_policy.py",
+    "source_sha256": "88e98e0f06293f3c4767db675061664c4bba12f87242ba1e64377d1b8de8069e",
+    "published_sha256": "88e98e0f06293f3c4767db675061664c4bba12f87242ba1e64377d1b8de8069e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/image_tools.py",
+    "source_file": "image_tools.py",
+    "source_sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+    "published_sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/image_tools_test.py",
+    "source_file": "image_tools_test.py",
+    "source_sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c",
+    "published_sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+    "source_file": "msgpack_numpy.py",
+    "source_sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057",
+    "published_sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+    "source_file": "msgpack_numpy_test.py",
+    "source_sha256": "2c6dd236720dae716d7bdf842b7d506a165e9563bf9d4376c95289269adcb973",
+    "published_sha256": "2c6dd236720dae716d7bdf842b7d506a165e9563bf9d4376c95289269adcb973",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/runtime/agent.py",
+    "source_file": "agent.py",
+    "source_sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b",
+    "published_sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+    "source_file": "policy_agent.py",
+    "source_sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c",
+    "published_sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/runtime/environment.py",
+    "source_file": "environment.py",
+    "source_sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e",
+    "published_sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+    "source_file": "runtime.py",
+    "source_sha256": "3daa242a9ce61ffb210789ef3ba6b1e3cade9de757fcd36af7b174c530345ea8",
+    "published_sha256": "3daa242a9ce61ffb210789ef3ba6b1e3cade9de757fcd36af7b174c530345ea8",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+    "source_file": "subscriber.py",
+    "source_sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b",
+    "published_sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+    "source_file": "websocket_client_policy.py",
+    "source_sha256": "36557cb0b91ccf31cd4fb4b508306850d76ed0feb4028dac5182d0f5a5d88005",
+    "published_sha256": "36557cb0b91ccf31cd4fb4b508306850d76ed0feb4028dac5182d0f5a5d88005",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/scripts/train.py",
+    "source_file": "train.py",
+    "source_sha256": "22f98a06aaa6e68e0f725d727ab95398238d1cae8a46bb94e829f330758a9baf",
+    "published_sha256": "22f98a06aaa6e68e0f725d727ab95398238d1cae8a46bb94e829f330758a9baf",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/scripts/compute_norm_stats.py",
+    "source_file": "compute_norm_stats.py",
+    "source_sha256": "8a64773495b714d6b18eded99d7cf87eb19d1bb3dd4a9fb47172b03de5d56a38",
+    "published_sha256": "8a64773495b714d6b18eded99d7cf87eb19d1bb3dd4a9fb47172b03de5d56a38",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/openpi/scripts/serve_policy.py",
+    "source_file": "serve_policy.py",
+    "source_sha256": "eccc0448b4873fd30a1fff3355c5de7a7c227138e6db04b7dcaa5bb38a6a5809",
+    "published_sha256": "eccc0448b4873fd30a1fff3355c5de7a7c227138e6db04b7dcaa5bb38a6a5809",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/training/server.sh",
+    "source_file": "server.sh",
+    "source_sha256": "44218cb9e7aed1e76c9d36cf57bb0d1846908ee8f98114a554acfed8d8242166",
+    "published_sha256": "b7654e3d26296f6a906fe046ce55e6f41943e4fcda0bcc0d713a9762d9c44e0f",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task1/tools/compute_numeric_norm_stats.py",
+    "source_file": "compute_numeric_norm_stats.py",
+    "source_sha256": "2a275b1929d981c046a9d7347a3c811523ab5f41e80ef544fad9d1440360671b",
+    "published_sha256": "d9ea4d0463913757b4119a0a2ec9dc7cb6032b11a8c4fcad31a8796aad54d989",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task1/tools/convert_dataset.py",
+    "source_file": "convert_dataset.py",
+    "source_sha256": "6cc13f90eccc98fed7d2c589305031b81fadd34677364c56887f7a8e0d0dd362",
+    "published_sha256": "084f2d82a43b93e396d9750ded033d3995f42cb1c456abc7863554f1b8a7ffb7",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task1/tools/test_dataset_adapter.py",
+    "source_file": "test_dataset_adapter.py",
+    "source_sha256": "c9e06c0300d4805e6b3ba020ad2cc5153e91591c704d4bf686ba99ea52d131f4",
+    "published_sha256": "c9e06c0300d4805e6b3ba020ad2cc5153e91591c704d4bf686ba99ea52d131f4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/tools/test_openpi_batch.py",
+    "source_file": "test_openpi_batch.py",
+    "source_sha256": "3d0a11b431c55e65750c389f3b3eb09cff0e4bb2568cd737a9bc1080d0455330",
+    "published_sha256": "3d0a11b431c55e65750c389f3b3eb09cff0e4bb2568cd737a9bc1080d0455330",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task1/tools/verify_cpu.sh",
+    "source_file": "verify_cpu.sh",
+    "source_sha256": "6280377061e065c1db85b2c00d054f5714d01d6d2b0f27dfd76e99d28df5af8b",
+    "published_sha256": "80bb49718c2541e504ea97f8701de34afbfb3f69c2c059436397d6f522f05ea9",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/LICENSE",
+    "source_file": "LICENSE",
+    "source_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "published_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/README.md",
+    "source_file": "README.md",
+    "source_sha256": "567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5",
+    "published_sha256": "c19c05ca7e63b7bedcfc0ce3c5737c18b9576f5c086b883d5e6e40e664776bd3",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/pyproject.toml",
+    "source_file": "pyproject.toml",
+    "source_sha256": "e1f457bd81622a47a4c4de17b92815977ac5fcd40116bec92398eb400bf76483",
+    "published_sha256": "e1f457bd81622a47a4c4de17b92815977ac5fcd40116bec92398eb400bf76483",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/uv.lock",
+    "source_file": "uv.lock",
+    "source_sha256": "348276435e99e44d02d5c94f8a71289745f825ca293336d3bdaecba26e497719",
+    "published_sha256": "348276435e99e44d02d5c94f8a71289745f825ca293336d3bdaecba26e497719",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/.python-version",
+    "source_file": ".python-version",
+    "source_sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94",
+    "published_sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/conftest.py",
+    "source_file": "conftest.py",
+    "source_sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+    "published_sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/gemma.py",
+    "source_file": "gemma.py",
+    "source_sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a",
+    "published_sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/gemma_fast.py",
+    "source_file": "gemma_fast.py",
+    "source_sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa",
+    "published_sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/lora.py",
+    "source_file": "lora.py",
+    "source_sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289",
+    "published_sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/lora_test.py",
+    "source_file": "lora_test.py",
+    "source_sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+    "published_sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/model.py",
+    "source_file": "model.py",
+    "source_sha256": "0d74bc1d8f4623ac3d8e543710b8bf75f9b95e588a3ebf6127c659e001385cff",
+    "published_sha256": "0d74bc1d8f4623ac3d8e543710b8bf75f9b95e588a3ebf6127c659e001385cff",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/model_test.py",
+    "source_file": "model_test.py",
+    "source_sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21",
+    "published_sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/pi0.py",
+    "source_file": "pi0.py",
+    "source_sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342",
+    "published_sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/pi0_config.py",
+    "source_file": "pi0_config.py",
+    "source_sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa",
+    "published_sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/pi0_fast.py",
+    "source_file": "pi0_fast.py",
+    "source_sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3",
+    "published_sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/pi0_test.py",
+    "source_file": "pi0_test.py",
+    "source_sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe",
+    "published_sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/siglip.py",
+    "source_file": "siglip.py",
+    "source_sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32",
+    "published_sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/tokenizer.py",
+    "source_file": "tokenizer.py",
+    "source_sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+    "published_sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/tokenizer_test.py",
+    "source_file": "tokenizer_test.py",
+    "source_sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517",
+    "published_sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/utils/fsq_tokenizer.py",
+    "source_file": "fsq_tokenizer.py",
+    "source_sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f",
+    "published_sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models/vit.py",
+    "source_file": "vit.py",
+    "source_sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93",
+    "published_sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models_pytorch/gemma_pytorch.py",
+    "source_file": "gemma_pytorch.py",
+    "source_sha256": "225092e06509da0ae37bb9dca55c00d2804255bb1496f7c8700304b4c52a95eb",
+    "published_sha256": "225092e06509da0ae37bb9dca55c00d2804255bb1496f7c8700304b4c52a95eb",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models_pytorch/pi0_pytorch.py",
+    "source_file": "pi0_pytorch.py",
+    "source_sha256": "dcd7b6f508808ce4b7170a1720a4c62c6da04edae3652d16c94a469dca924e16",
+    "published_sha256": "dcd7b6f508808ce4b7170a1720a4c62c6da04edae3652d16c94a469dca924e16",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models_pytorch/preprocessing_pytorch.py",
+    "source_file": "preprocessing_pytorch.py",
+    "source_sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6",
+    "published_sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+    "source_file": "configuration_gemma.py",
+    "source_sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+    "published_sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+    "source_file": "modeling_gemma.py",
+    "source_sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+    "published_sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+    "source_file": "modeling_paligemma.py",
+    "source_sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+    "published_sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+    "source_file": "check.py",
+    "source_sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245",
+    "published_sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+    "source_file": "modeling_siglip.py",
+    "source_sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+    "published_sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/policies/aloha_policy.py",
+    "source_file": "aloha_policy.py",
+    "source_sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d",
+    "published_sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/policies/droid_policy.py",
+    "source_file": "droid_policy.py",
+    "source_sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26",
+    "published_sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/policies/libero_policy.py",
+    "source_file": "libero_policy.py",
+    "source_sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a",
+    "published_sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/policies/policy.py",
+    "source_file": "policy.py",
+    "source_sha256": "a2ac5236e23b11d0f5a840d4a8fef148d89dba921d5452ec5dfcd5a6ffa46f20",
+    "published_sha256": "a2ac5236e23b11d0f5a840d4a8fef148d89dba921d5452ec5dfcd5a6ffa46f20",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/policies/policy_config.py",
+    "source_file": "policy_config.py",
+    "source_sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52",
+    "published_sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/policies/policy_test.py",
+    "source_file": "policy_test.py",
+    "source_sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683",
+    "published_sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/policies/uf850_policy.py",
+    "source_file": "uf850_policy.py",
+    "source_sha256": "d33def9af74c37f4fd59bdf26ea6b2214a9af08bc274988044c151f26f29e2dc",
+    "published_sha256": "d33def9af74c37f4fd59bdf26ea6b2214a9af08bc274988044c151f26f29e2dc",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/py.typed",
+    "source_file": "py.typed",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/serving/websocket_policy_server.py",
+    "source_file": "websocket_policy_server.py",
+    "source_sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026",
+    "published_sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/shared/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/shared/array_typing.py",
+    "source_file": "array_typing.py",
+    "source_sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026",
+    "published_sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/shared/download.py",
+    "source_file": "download.py",
+    "source_sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2",
+    "published_sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/shared/download_test.py",
+    "source_file": "download_test.py",
+    "source_sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072",
+    "published_sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/shared/image_tools.py",
+    "source_file": "image_tools.py",
+    "source_sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767",
+    "published_sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/shared/image_tools_test.py",
+    "source_file": "image_tools_test.py",
+    "source_sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+    "published_sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/shared/nnx_utils.py",
+    "source_file": "nnx_utils.py",
+    "source_sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+    "published_sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/shared/normalize.py",
+    "source_file": "normalize.py",
+    "source_sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d",
+    "published_sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/shared/normalize_test.py",
+    "source_file": "normalize_test.py",
+    "source_sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af",
+    "published_sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/checkpoints.py",
+    "source_file": "checkpoints.py",
+    "source_sha256": "3cc32682ec3609e9075dabd991488edb9d7f6c045443f58963d733f99c468dbd",
+    "published_sha256": "3cc32682ec3609e9075dabd991488edb9d7f6c045443f58963d733f99c468dbd",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/config.py",
+    "source_file": "config.py",
+    "source_sha256": "454f1186bdcbc1e0847c008146004544c636b45d1fd9d3679d8bf4acc32c4455",
+    "published_sha256": "454f1186bdcbc1e0847c008146004544c636b45d1fd9d3679d8bf4acc32c4455",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/data_loader.py",
+    "source_file": "data_loader.py",
+    "source_sha256": "4d0b055ac28527c1ab1f0ba7496057722c7c748c88564a8de2ff4fac650e97c9",
+    "published_sha256": "4d0b055ac28527c1ab1f0ba7496057722c7c748c88564a8de2ff4fac650e97c9",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/data_loader_test.py",
+    "source_file": "data_loader_test.py",
+    "source_sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815",
+    "published_sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/droid_rlds_dataset.py",
+    "source_file": "droid_rlds_dataset.py",
+    "source_sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4",
+    "published_sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/misc/polaris_config.py",
+    "source_file": "polaris_config.py",
+    "source_sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8",
+    "published_sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/misc/roboarena_config.py",
+    "source_file": "roboarena_config.py",
+    "source_sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01",
+    "published_sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/optimizer.py",
+    "source_file": "optimizer.py",
+    "source_sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa",
+    "published_sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/sharding.py",
+    "source_file": "sharding.py",
+    "source_sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985",
+    "published_sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/uf850_config.py",
+    "source_file": "uf850_config.py",
+    "source_sha256": "f9264b76fb5182211e92ac36e157d5f26a6ff9850b508a597d91da3433475863",
+    "published_sha256": "f9264b76fb5182211e92ac36e157d5f26a6ff9850b508a597d91da3433475863",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/utils.py",
+    "source_file": "utils.py",
+    "source_sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+    "published_sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/training/weight_loaders.py",
+    "source_file": "weight_loaders.py",
+    "source_sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4",
+    "published_sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/transforms.py",
+    "source_file": "transforms.py",
+    "source_sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4",
+    "published_sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/src/openpi/transforms_test.py",
+    "source_file": "transforms_test.py",
+    "source_sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8",
+    "published_sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/pyproject.toml",
+    "source_file": "pyproject.toml",
+    "source_sha256": "a855b2b235b21d584c884fcaae6d39778c76b05c6600ee37ad7cbe1aac24f08d",
+    "published_sha256": "a855b2b235b21d584c884fcaae6d39778c76b05c6600ee37ad7cbe1aac24f08d",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "published_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+    "source_file": "action_chunk_broker.py",
+    "source_sha256": "019b9d69cb26cc681331a2f95dbe60a2cc7b02d6d309c5d15b6457ab39798234",
+    "published_sha256": "019b9d69cb26cc681331a2f95dbe60a2cc7b02d6d309c5d15b6457ab39798234",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/base_policy.py",
+    "source_file": "base_policy.py",
+    "source_sha256": "88e98e0f06293f3c4767db675061664c4bba12f87242ba1e64377d1b8de8069e",
+    "published_sha256": "88e98e0f06293f3c4767db675061664c4bba12f87242ba1e64377d1b8de8069e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/image_tools.py",
+    "source_file": "image_tools.py",
+    "source_sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+    "published_sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/image_tools_test.py",
+    "source_file": "image_tools_test.py",
+    "source_sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c",
+    "published_sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+    "source_file": "msgpack_numpy.py",
+    "source_sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057",
+    "published_sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+    "source_file": "msgpack_numpy_test.py",
+    "source_sha256": "2c6dd236720dae716d7bdf842b7d506a165e9563bf9d4376c95289269adcb973",
+    "published_sha256": "2c6dd236720dae716d7bdf842b7d506a165e9563bf9d4376c95289269adcb973",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/runtime/agent.py",
+    "source_file": "agent.py",
+    "source_sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b",
+    "published_sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+    "source_file": "policy_agent.py",
+    "source_sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c",
+    "published_sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/runtime/environment.py",
+    "source_file": "environment.py",
+    "source_sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e",
+    "published_sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+    "source_file": "runtime.py",
+    "source_sha256": "3daa242a9ce61ffb210789ef3ba6b1e3cade9de757fcd36af7b174c530345ea8",
+    "published_sha256": "3daa242a9ce61ffb210789ef3ba6b1e3cade9de757fcd36af7b174c530345ea8",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+    "source_file": "subscriber.py",
+    "source_sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b",
+    "published_sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+    "source_file": "websocket_client_policy.py",
+    "source_sha256": "36557cb0b91ccf31cd4fb4b508306850d76ed0feb4028dac5182d0f5a5d88005",
+    "published_sha256": "36557cb0b91ccf31cd4fb4b508306850d76ed0feb4028dac5182d0f5a5d88005",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/scripts/train.py",
+    "source_file": "train.py",
+    "source_sha256": "22f98a06aaa6e68e0f725d727ab95398238d1cae8a46bb94e829f330758a9baf",
+    "published_sha256": "22f98a06aaa6e68e0f725d727ab95398238d1cae8a46bb94e829f330758a9baf",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/scripts/compute_norm_stats.py",
+    "source_file": "compute_norm_stats.py",
+    "source_sha256": "8a64773495b714d6b18eded99d7cf87eb19d1bb3dd4a9fb47172b03de5d56a38",
+    "published_sha256": "8a64773495b714d6b18eded99d7cf87eb19d1bb3dd4a9fb47172b03de5d56a38",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/openpi/scripts/serve_policy.py",
+    "source_file": "serve_policy.py",
+    "source_sha256": "eccc0448b4873fd30a1fff3355c5de7a7c227138e6db04b7dcaa5bb38a6a5809",
+    "published_sha256": "eccc0448b4873fd30a1fff3355c5de7a7c227138e6db04b7dcaa5bb38a6a5809",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/training/server.sh",
+    "source_file": "server.sh",
+    "source_sha256": "b2640276845c1143ea53174cbf098c3ea17d480d08d9440c76c6165a1adb6e2c",
+    "published_sha256": "203a0aba4a7bc2de21efd5c6e9a635cca13443489601feba012fbafacc62ebaa",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task2/tools/compute_numeric_norm_stats.py",
+    "source_file": "compute_numeric_norm_stats.py",
+    "source_sha256": "628c0c98bb10c2b542ca92dac563d40642f7d9abfb674c4720a167e2a57e944b",
+    "published_sha256": "3233bd5e60415598c61d9cf6d8a093d3b6d99512626f7cc6c1814cf8fa6a040d",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task2/tools/convert_dataset.py",
+    "source_file": "convert_dataset.py",
+    "source_sha256": "bf87ddbfe9890abd3315e3f75caec32abb6381fac32d590e885df2d4a46b759b",
+    "published_sha256": "ee43717d325c40b8926bc95c0174023127bce0446ec35b0b59a49b5e3bf05af3",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task2/tools/test_dataset_adapter.py",
+    "source_file": "test_dataset_adapter.py",
+    "source_sha256": "0ca7e45562e594ab1885f529054f8ac8e49fcaa0d8b48455f8fea3ecf374af36",
+    "published_sha256": "0ca7e45562e594ab1885f529054f8ac8e49fcaa0d8b48455f8fea3ecf374af36",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/tools/test_openpi_batch.py",
+    "source_file": "test_openpi_batch.py",
+    "source_sha256": "d19ef79844f577ea206b24272a5f31bd360d57a5f564d395085fd0097e441909",
+    "published_sha256": "d19ef79844f577ea206b24272a5f31bd360d57a5f564d395085fd0097e441909",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/tools/training_data_config.py",
+    "source_file": "training_data_config.py",
+    "source_sha256": "e4d4debc93767db5b19ce6907b801737f8da0eb4b17cc990eaa626c8e81f7f05",
+    "published_sha256": "e4d4debc93767db5b19ce6907b801737f8da0eb4b17cc990eaa626c8e81f7f05",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task2/tools/verify_cpu.sh",
+    "source_file": "verify_cpu.sh",
+    "source_sha256": "88842009230fa8a0e144dfe243452a277a014f05e47436c0fcabeaeb40871b73",
+    "published_sha256": "b1bc20e502acb13abc4b8332fdb4313fd23ed67022a95a85bdd40fede6a3e313",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/LICENSE",
+    "source_file": "LICENSE",
+    "source_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "published_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/README.md",
+    "source_file": "README.md",
+    "source_sha256": "567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5",
+    "published_sha256": "c19c05ca7e63b7bedcfc0ce3c5737c18b9576f5c086b883d5e6e40e664776bd3",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/pyproject.toml",
+    "source_file": "pyproject.toml",
+    "source_sha256": "e1f457bd81622a47a4c4de17b92815977ac5fcd40116bec92398eb400bf76483",
+    "published_sha256": "e1f457bd81622a47a4c4de17b92815977ac5fcd40116bec92398eb400bf76483",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/uv.lock",
+    "source_file": "uv.lock",
+    "source_sha256": "348276435e99e44d02d5c94f8a71289745f825ca293336d3bdaecba26e497719",
+    "published_sha256": "348276435e99e44d02d5c94f8a71289745f825ca293336d3bdaecba26e497719",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/.python-version",
+    "source_file": ".python-version",
+    "source_sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94",
+    "published_sha256": "bb0635f951bfd55419a47fc08a859192049b4d0949cf2d09a4d4d6b2cafafb94",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/conftest.py",
+    "source_file": "conftest.py",
+    "source_sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+    "published_sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/gemma.py",
+    "source_file": "gemma.py",
+    "source_sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a",
+    "published_sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/gemma_fast.py",
+    "source_file": "gemma_fast.py",
+    "source_sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa",
+    "published_sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/lora.py",
+    "source_file": "lora.py",
+    "source_sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289",
+    "published_sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/lora_test.py",
+    "source_file": "lora_test.py",
+    "source_sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+    "published_sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/model.py",
+    "source_file": "model.py",
+    "source_sha256": "0d74bc1d8f4623ac3d8e543710b8bf75f9b95e588a3ebf6127c659e001385cff",
+    "published_sha256": "0d74bc1d8f4623ac3d8e543710b8bf75f9b95e588a3ebf6127c659e001385cff",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/model_test.py",
+    "source_file": "model_test.py",
+    "source_sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21",
+    "published_sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/pi0.py",
+    "source_file": "pi0.py",
+    "source_sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342",
+    "published_sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/pi0_config.py",
+    "source_file": "pi0_config.py",
+    "source_sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa",
+    "published_sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/pi0_fast.py",
+    "source_file": "pi0_fast.py",
+    "source_sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3",
+    "published_sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/pi0_test.py",
+    "source_file": "pi0_test.py",
+    "source_sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe",
+    "published_sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/siglip.py",
+    "source_file": "siglip.py",
+    "source_sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32",
+    "published_sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/tokenizer.py",
+    "source_file": "tokenizer.py",
+    "source_sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+    "published_sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/tokenizer_test.py",
+    "source_file": "tokenizer_test.py",
+    "source_sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517",
+    "published_sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/utils/fsq_tokenizer.py",
+    "source_file": "fsq_tokenizer.py",
+    "source_sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f",
+    "published_sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models/vit.py",
+    "source_file": "vit.py",
+    "source_sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93",
+    "published_sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models_pytorch/gemma_pytorch.py",
+    "source_file": "gemma_pytorch.py",
+    "source_sha256": "225092e06509da0ae37bb9dca55c00d2804255bb1496f7c8700304b4c52a95eb",
+    "published_sha256": "225092e06509da0ae37bb9dca55c00d2804255bb1496f7c8700304b4c52a95eb",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models_pytorch/pi0_pytorch.py",
+    "source_file": "pi0_pytorch.py",
+    "source_sha256": "dcd7b6f508808ce4b7170a1720a4c62c6da04edae3652d16c94a469dca924e16",
+    "published_sha256": "dcd7b6f508808ce4b7170a1720a4c62c6da04edae3652d16c94a469dca924e16",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models_pytorch/preprocessing_pytorch.py",
+    "source_file": "preprocessing_pytorch.py",
+    "source_sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6",
+    "published_sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+    "source_file": "configuration_gemma.py",
+    "source_sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+    "published_sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+    "source_file": "modeling_gemma.py",
+    "source_sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+    "published_sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+    "source_file": "modeling_paligemma.py",
+    "source_sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+    "published_sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+    "source_file": "check.py",
+    "source_sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245",
+    "published_sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+    "source_file": "modeling_siglip.py",
+    "source_sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+    "published_sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/policies/aloha_policy.py",
+    "source_file": "aloha_policy.py",
+    "source_sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d",
+    "published_sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/policies/droid_policy.py",
+    "source_file": "droid_policy.py",
+    "source_sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26",
+    "published_sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/policies/libero_policy.py",
+    "source_file": "libero_policy.py",
+    "source_sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a",
+    "published_sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/policies/policy.py",
+    "source_file": "policy.py",
+    "source_sha256": "a2ac5236e23b11d0f5a840d4a8fef148d89dba921d5452ec5dfcd5a6ffa46f20",
+    "published_sha256": "a2ac5236e23b11d0f5a840d4a8fef148d89dba921d5452ec5dfcd5a6ffa46f20",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/policies/policy_config.py",
+    "source_file": "policy_config.py",
+    "source_sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52",
+    "published_sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/policies/policy_test.py",
+    "source_file": "policy_test.py",
+    "source_sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683",
+    "published_sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/policies/uf850_policy.py",
+    "source_file": "uf850_policy.py",
+    "source_sha256": "d33def9af74c37f4fd59bdf26ea6b2214a9af08bc274988044c151f26f29e2dc",
+    "published_sha256": "d33def9af74c37f4fd59bdf26ea6b2214a9af08bc274988044c151f26f29e2dc",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/py.typed",
+    "source_file": "py.typed",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/serving/websocket_policy_server.py",
+    "source_file": "websocket_policy_server.py",
+    "source_sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026",
+    "published_sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/shared/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/shared/array_typing.py",
+    "source_file": "array_typing.py",
+    "source_sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026",
+    "published_sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/shared/download.py",
+    "source_file": "download.py",
+    "source_sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2",
+    "published_sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/shared/download_test.py",
+    "source_file": "download_test.py",
+    "source_sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072",
+    "published_sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/shared/image_tools.py",
+    "source_file": "image_tools.py",
+    "source_sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767",
+    "published_sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/shared/image_tools_test.py",
+    "source_file": "image_tools_test.py",
+    "source_sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+    "published_sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/shared/nnx_utils.py",
+    "source_file": "nnx_utils.py",
+    "source_sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+    "published_sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/shared/normalize.py",
+    "source_file": "normalize.py",
+    "source_sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d",
+    "published_sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/shared/normalize_test.py",
+    "source_file": "normalize_test.py",
+    "source_sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af",
+    "published_sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/checkpoints.py",
+    "source_file": "checkpoints.py",
+    "source_sha256": "3cc32682ec3609e9075dabd991488edb9d7f6c045443f58963d733f99c468dbd",
+    "published_sha256": "3cc32682ec3609e9075dabd991488edb9d7f6c045443f58963d733f99c468dbd",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/config.py",
+    "source_file": "config.py",
+    "source_sha256": "7b1b6babd252770aebe2467d8c8270b8eeabfacc5833df7e74d175ffee49137a",
+    "published_sha256": "7b1b6babd252770aebe2467d8c8270b8eeabfacc5833df7e74d175ffee49137a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/data_loader.py",
+    "source_file": "data_loader.py",
+    "source_sha256": "4d0b055ac28527c1ab1f0ba7496057722c7c748c88564a8de2ff4fac650e97c9",
+    "published_sha256": "4d0b055ac28527c1ab1f0ba7496057722c7c748c88564a8de2ff4fac650e97c9",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/data_loader_test.py",
+    "source_file": "data_loader_test.py",
+    "source_sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815",
+    "published_sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/droid_rlds_dataset.py",
+    "source_file": "droid_rlds_dataset.py",
+    "source_sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4",
+    "published_sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/misc/polaris_config.py",
+    "source_file": "polaris_config.py",
+    "source_sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8",
+    "published_sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/misc/roboarena_config.py",
+    "source_file": "roboarena_config.py",
+    "source_sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01",
+    "published_sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/optimizer.py",
+    "source_file": "optimizer.py",
+    "source_sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa",
+    "published_sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/sharding.py",
+    "source_file": "sharding.py",
+    "source_sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985",
+    "published_sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/uf850_config.py",
+    "source_file": "uf850_config.py",
+    "source_sha256": "a75b03dcd185163078560ec19b3255ca1bfa689daa9b82be099e9fd23e55a35a",
+    "published_sha256": "a75b03dcd185163078560ec19b3255ca1bfa689daa9b82be099e9fd23e55a35a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/uf850_task3_config.py",
+    "source_file": "uf850_task3_config.py",
+    "source_sha256": "195ee1f82450d194052fa323b5ccbd872a54200e3d8a9e2b5b12c9e6db613ee7",
+    "published_sha256": "195ee1f82450d194052fa323b5ccbd872a54200e3d8a9e2b5b12c9e6db613ee7",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/utils.py",
+    "source_file": "utils.py",
+    "source_sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+    "published_sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/training/weight_loaders.py",
+    "source_file": "weight_loaders.py",
+    "source_sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4",
+    "published_sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/transforms.py",
+    "source_file": "transforms.py",
+    "source_sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4",
+    "published_sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/src/openpi/transforms_test.py",
+    "source_file": "transforms_test.py",
+    "source_sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8",
+    "published_sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/pyproject.toml",
+    "source_file": "pyproject.toml",
+    "source_sha256": "a855b2b235b21d584c884fcaae6d39778c76b05c6600ee37ad7cbe1aac24f08d",
+    "published_sha256": "a855b2b235b21d584c884fcaae6d39778c76b05c6600ee37ad7cbe1aac24f08d",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "published_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+    "source_file": "action_chunk_broker.py",
+    "source_sha256": "019b9d69cb26cc681331a2f95dbe60a2cc7b02d6d309c5d15b6457ab39798234",
+    "published_sha256": "019b9d69cb26cc681331a2f95dbe60a2cc7b02d6d309c5d15b6457ab39798234",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/base_policy.py",
+    "source_file": "base_policy.py",
+    "source_sha256": "88e98e0f06293f3c4767db675061664c4bba12f87242ba1e64377d1b8de8069e",
+    "published_sha256": "88e98e0f06293f3c4767db675061664c4bba12f87242ba1e64377d1b8de8069e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/image_tools.py",
+    "source_file": "image_tools.py",
+    "source_sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+    "published_sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/image_tools_test.py",
+    "source_file": "image_tools_test.py",
+    "source_sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c",
+    "published_sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+    "source_file": "msgpack_numpy.py",
+    "source_sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057",
+    "published_sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+    "source_file": "msgpack_numpy_test.py",
+    "source_sha256": "2c6dd236720dae716d7bdf842b7d506a165e9563bf9d4376c95289269adcb973",
+    "published_sha256": "2c6dd236720dae716d7bdf842b7d506a165e9563bf9d4376c95289269adcb973",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/runtime/agent.py",
+    "source_file": "agent.py",
+    "source_sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b",
+    "published_sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+    "source_file": "policy_agent.py",
+    "source_sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c",
+    "published_sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/runtime/environment.py",
+    "source_file": "environment.py",
+    "source_sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e",
+    "published_sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+    "source_file": "runtime.py",
+    "source_sha256": "3daa242a9ce61ffb210789ef3ba6b1e3cade9de757fcd36af7b174c530345ea8",
+    "published_sha256": "3daa242a9ce61ffb210789ef3ba6b1e3cade9de757fcd36af7b174c530345ea8",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+    "source_file": "subscriber.py",
+    "source_sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b",
+    "published_sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+    "source_file": "websocket_client_policy.py",
+    "source_sha256": "36557cb0b91ccf31cd4fb4b508306850d76ed0feb4028dac5182d0f5a5d88005",
+    "published_sha256": "36557cb0b91ccf31cd4fb4b508306850d76ed0feb4028dac5182d0f5a5d88005",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/scripts/train.py",
+    "source_file": "train.py",
+    "source_sha256": "22f98a06aaa6e68e0f725d727ab95398238d1cae8a46bb94e829f330758a9baf",
+    "published_sha256": "22f98a06aaa6e68e0f725d727ab95398238d1cae8a46bb94e829f330758a9baf",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/scripts/compute_norm_stats.py",
+    "source_file": "compute_norm_stats.py",
+    "source_sha256": "8a64773495b714d6b18eded99d7cf87eb19d1bb3dd4a9fb47172b03de5d56a38",
+    "published_sha256": "8a64773495b714d6b18eded99d7cf87eb19d1bb3dd4a9fb47172b03de5d56a38",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/training/openpi/scripts/serve_policy.py",
+    "source_file": "serve_policy.py",
+    "source_sha256": "eccc0448b4873fd30a1fff3355c5de7a7c227138e6db04b7dcaa5bb38a6a5809",
+    "published_sha256": "eccc0448b4873fd30a1fff3355c5de7a7c227138e6db04b7dcaa5bb38a6a5809",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/tools/convert_dataset.py",
+    "source_file": "convert_dataset.py",
+    "source_sha256": "998ea3b09e83f165954b3c60d4882a6d780fc3fb7b3380bae5a9442157ee1d41",
+    "published_sha256": "be0064408df880166756272ba1de563879f71b58d8d5862c4c432fc36860b43a",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/training/task3/tools/verify_lerobot_dataset.py",
+    "source_file": "verify_lerobot_dataset.py",
+    "source_sha256": "f959e4fab271adcac7c468cd3522c301081f25e1b71cf9087bcb224bd41f9446",
+    "published_sha256": "f959e4fab271adcac7c468cd3522c301081f25e1b71cf9087bcb224bd41f9446",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/training/task3/tools/merge_raw.py",
+    "source_file": "merge_raw.py",
+    "source_sha256": "2da7586ebb3aa229b3682cebd963886d0ab6a85f9e2114eb24e1d21768cfc8af",
+    "published_sha256": "2da7586ebb3aa229b3682cebd963886d0ab6a85f9e2114eb24e1d21768cfc8af",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/task_configs/task1/norm_stats.json",
+    "source_file": "norm_stats.json",
+    "source_sha256": "53172391b499916e073ce50dfc451c91fe4d70402ccc58b5a9991b62c1f44d82",
+    "published_sha256": "53172391b499916e073ce50dfc451c91fe4d70402ccc58b5a9991b62c1f44d82",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/task_configs/task1/controller_normalization.json",
+    "source_file": "controller_normalization.json",
+    "source_sha256": "4db31aac28fb3b200463790d2e52574de16578a4bed0ca24743747ebad8d103f",
+    "published_sha256": "4db31aac28fb3b200463790d2e52574de16578a4bed0ca24743747ebad8d103f",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/task_configs/task2/norm_stats.json",
+    "source_file": "norm_stats.json",
+    "source_sha256": "d48e7330bc34d922c3505da9448bd325eee9bd67acdd86c2b33daab2cc5f4875",
+    "published_sha256": "d48e7330bc34d922c3505da9448bd325eee9bd67acdd86c2b33daab2cc5f4875",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/task_configs/task2/controller_normalization.json",
+    "source_file": "controller_normalization.json",
+    "source_sha256": "f7944d46b74d0c773f4eeeeb4d2bd1e8703b91a86444885cd2dd0ef44dfe4547",
+    "published_sha256": "f7944d46b74d0c773f4eeeeb4d2bd1e8703b91a86444885cd2dd0ef44dfe4547",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/task_configs/task3/norm_stats.json",
+    "source_file": "norm_stats.json",
+    "source_sha256": "cc107bba4344ae66f5b03fe7ef59483474ac6918351038114c82eb9ef85204ea",
+    "published_sha256": "cc107bba4344ae66f5b03fe7ef59483474ac6918351038114c82eb9ef85204ea",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/task_configs/task3/controller_normalization.json",
+    "source_file": "controller_normalization.json",
+    "source_sha256": "2d9b407d01b38350a224b291f5ecd810e4f73c1d1b924adcdf57df9ddeb78437",
+    "published_sha256": "2d9b407d01b38350a224b291f5ecd810e4f73c1d1b924adcdf57df9ddeb78437",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/launch.py",
+    "source_file": "launch.py",
+    "source_sha256": "4eeeb0426e617acaa0a1b351397a9efb30c571fe77d33c7018bc30b07d5b2296",
+    "published_sha256": "4f328cd83abe8dadac11aef7867c1d71c0ce8a4c1e33804d0c4d5665b41e0d93",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/start_collection.py",
+    "source_file": "start_collection.py",
+    "source_sha256": "a4e2f93f6cff493f7ec82d4d505d1e32e08e7f4f80c618510289b3e9c9e25e84",
+    "published_sha256": "a4e2f93f6cff493f7ec82d4d505d1e32e08e7f4f80c618510289b3e9c9e25e84",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/task_spec.py",
+    "source_file": "task_spec.py",
+    "source_sha256": "a9bb371541ec0677cc33bc8c83afabcb5cf7ab3426dc9da1acefdd30d54f6cec",
+    "published_sha256": "a9bb371541ec0677cc33bc8c83afabcb5cf7ab3426dc9da1acefdd30d54f6cec",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/curate_episodes.py",
+    "source_file": "curate_episodes.py",
+    "source_sha256": "98acf07b9fdb1ad41829e1511544448b3039858fae553e5b92c8367a6bf39d87",
+    "published_sha256": "98acf07b9fdb1ad41829e1511544448b3039858fae553e5b92c8367a6bf39d87",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/camera_preview.py",
+    "source_file": "camera_preview.py",
+    "source_sha256": "01d1b4f556956fb148414c45f6ccb717a669a1814bfc396cfbe650f7cd95108a",
+    "published_sha256": "01d1b4f556956fb148414c45f6ccb717a669a1814bfc396cfbe650f7cd95108a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/CAMERAS.json",
+    "source_file": "CAMERAS.json",
+    "source_sha256": "78a4dd882e7563d9fa67a828107084de8be3287961eb8650b27498ab47e79c6a",
+    "published_sha256": "78a4dd882e7563d9fa67a828107084de8be3287961eb8650b27498ab47e79c6a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/TASK_HOME.json",
+    "source_file": "TASK_HOME.json",
+    "source_sha256": "104b919d493fa98c0d77bb52e38ba50f6d7bf840b6a109a5fd1cfe5bcf5ddb80",
+    "published_sha256": "104b919d493fa98c0d77bb52e38ba50f6d7bf840b6a109a5fd1cfe5bcf5ddb80",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/TASK_SPEC.json",
+    "source_file": "TASK_SPEC.json",
+    "source_sha256": "9275b45356e5c82814fa64e9271b9372cacc56b503203b87af86a23bda9f6483",
+    "published_sha256": "447fa9fe166ecfc51bfee4248c9b501c97cc03b7716452b3cd95a303cb06d569",
+    "modified_for_release": true
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/DYNAMIC_COLLECTION_PLAN.json",
+    "source_file": "DYNAMIC_COLLECTION_PLAN.json",
+    "source_sha256": "e03ac61f4a2853f46f77c51ea28bc46a195d6fcffa419137676fd465020debc1",
+    "published_sha256": "e03ac61f4a2853f46f77c51ea28bc46a195d6fcffa419137676fd465020debc1",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/SCHEMA.zh-CN.md",
+    "source_file": "SCHEMA.zh-CN.md",
+    "source_sha256": "474566d4d79aae8eac46ad376cada03bd4ce61658dadea78b322f3947fa0f5d3",
+    "published_sha256": "474566d4d79aae8eac46ad376cada03bd4ce61658dadea78b322f3947fa0f5d3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/teleop_diagnostics.py",
+    "source_file": "teleop_diagnostics.py",
+    "source_sha256": "2019c0ed1bad59f8a09d16eb8cb15cf2dcc9b347e8938d6984a43852d24404a3",
+    "published_sha256": "2019c0ed1bad59f8a09d16eb8cb15cf2dcc9b347e8938d6984a43852d24404a3",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/index.html",
+    "source_file": "index.html",
+    "source_sha256": "e2b5cd4a10f0b3a414f262fdaa937c57ad7c09cd0c0cda215a7db289f77f6557",
+    "published_sha256": "e2b5cd4a10f0b3a414f262fdaa937c57ad7c09cd0c0cda215a7db289f77f6557",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/robot_control_with_data_collection_reset.py",
+    "source_file": "robot_control_with_data_collection_reset.py",
+    "source_sha256": "70713be4ed872d171a96a4b85d53e00130878dc79fcc9933f16f39edbffd2469",
+    "published_sha256": "70713be4ed872d171a96a4b85d53e00130878dc79fcc9933f16f39edbffd2469",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/config.py",
+    "source_file": "config.py",
+    "source_sha256": "9ec0a8c9cee3d075a4795fcab570283c6dc97827cde325823437fa9213fdf40f",
+    "published_sha256": "9ec0a8c9cee3d075a4795fcab570283c6dc97827cde325823437fa9213fdf40f",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/data_collection/__init__.py",
+    "source_file": "__init__.py",
+    "source_sha256": "d458da8a79625d992fd96f0393511c69a47ac04d0523c905e50282f346cef119",
+    "published_sha256": "d458da8a79625d992fd96f0393511c69a47ac04d0523c905e50282f346cef119",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/data_collection/data_collector.py",
+    "source_file": "data_collector.py",
+    "source_sha256": "efe82b8766ec42c22c657937ea291e700f5fec6aa3891016ca67f1380023a71a",
+    "published_sha256": "efe82b8766ec42c22c657937ea291e700f5fec6aa3891016ca67f1380023a71a",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/data_collection/relocation_plan.py",
+    "source_file": "relocation_plan.py",
+    "source_sha256": "6e639b01bbe7067cea4d0f5a28c79671509dba1f28c938c0083b887123fd06a2",
+    "published_sha256": "6e639b01bbe7067cea4d0f5a28c79671509dba1f28c938c0083b887123fd06a2",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/data_collection/episode_recorder.py",
+    "source_file": "episode_recorder.py",
+    "source_sha256": "22754c58722103e44765d49017bead074cb89c371c5adb52764ae23a55c94f83",
+    "published_sha256": "22754c58722103e44765d49017bead074cb89c371c5adb52764ae23a55c94f83",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/data_collection/raw_recorder.py",
+    "source_file": "raw_recorder.py",
+    "source_sha256": "6062d3d44dd0ed11a5131db1294e9861dd2f0df260e48cc00d6322b9fbf508c5",
+    "published_sha256": "6062d3d44dd0ed11a5131db1294e9861dd2f0df260e48cc00d6322b9fbf508c5",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/data_collection/camera_manager.py",
+    "source_file": "camera_manager.py",
+    "source_sha256": "906a40cecc37dad613366384bb660ff6ec6a8bb2a071a8bda70287bbadd15ac4",
+    "published_sha256": "906a40cecc37dad613366384bb660ff6ec6a8bb2a071a8bda70287bbadd15ac4",
+    "modified_for_release": false
+  },
+  {
+    "path": "real_robot/collection/task3_dynamic/webxr/data_collection/episode_trash.py",
+    "source_file": "episode_trash.py",
+    "source_sha256": "c95adeb8c662d79ce0bab063e3478612d8db0843de472c024b02fa9f4ab7e48e",
+    "published_sha256": "c95adeb8c662d79ce0bab063e3478612d8db0843de472c024b02fa9f4ab7e48e",
+    "modified_for_release": false
+  }
+]

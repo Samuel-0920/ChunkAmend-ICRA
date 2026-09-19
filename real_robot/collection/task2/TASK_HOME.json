@@ -1,0 +1,19 @@
+{
+  "task_id": "fruit_organization",
+  "task": "Organize the fruit.",
+  "robot_ip": "192.168.1.237",
+  "initial_pose_mm_degrees": [
+    332.808868,
+    -4.35796,
+    494.787415,
+    179.994118,
+    -0.00149,
+    0.000115
+  ],
+  "pose_source": "user_selected_current_sdk_get_position",
+  "evidence": "evidence/CURRENT_HOME_READONLY_20260908T193522197358Z.json",
+  "captured_at_utc": "2026-09-08T19:35:21.892851+00:00",
+  "position_tolerance_mm": 2.0,
+  "orientation_tolerance_degrees": 0.5,
+  "return_path_verified": false
+}

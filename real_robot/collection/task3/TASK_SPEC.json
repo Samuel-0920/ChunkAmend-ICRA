@@ -1,0 +1,43 @@
+{
+  "status": "ready_for_human_started_static_collection",
+  "task_id": "lemon_in_goblet",
+  "task_name_en": "Precision Lemon Placement in a Goblet",
+  "task_prompt_en": "Pick up the lemon and place it into the goblet.",
+  "objects": "柠檬",
+  "target": "高脚杯",
+  "success_condition": "松爪后柠檬进入高脚杯内即可，无需额外停留",
+  "target_episodes": 150,
+  "confirmed": true,
+  "robot_ip": "192.168.1.237",
+  "expected_sdk": "1.17.3",
+  "expected_firmware": "v2.7.1",
+  "initial_pose_mm_degrees": [
+    332.808868,
+    69.979057,
+    450.30603,
+    179.994118,
+    -0.00149,
+    0.000115
+  ],
+  "home_confirmation": "2026-09-09 user inspected task1 and task2 homes and selected 任务一吧就; return to task1 completed",
+  "note": "User selected task1 home after physical preview. Current entry is static demonstrations only; 150 is total planned, 90 is static target; counts do not automatically truncate motion.",
+  "action_zh": "将柠檬放入高脚杯",
+  "task_confirmation": "2026-09-09 user: 人工示教训练数据；柠檬，150条，未固定，可移动，余量可以释放",
+  "initial_scene": "静态阶段：高脚杯回合内保持原位；未机械固定，出现移动/倾倒须审核",
+  "initial_scene_source": "用户本轮描述",
+  "home_evidence": "evidence/task1_home_preview_20260909T165834.050956Z/events.jsonl",
+  "task_name_zh": "柠檬高脚杯精确放置",
+  "container_fixed": false,
+  "within_episode_container_motion": false,
+  "stable_retention_seconds": 0,
+  "opening_clearance": "operator reports sufficient room to release; no numeric measurement supplied",
+  "collection_mode": "manual_quest_demonstration",
+  "stable_retention_source": "User explicitly removed dwell requirement: 松爪后不用停留2秒，柠檬进杯子就行",
+  "collection_condition": "static",
+  "planned_counts": {
+    "static": 90,
+    "single_relocation": 60,
+    "total": 150
+  },
+  "dynamic_collection_status": "not_enabled_pending_fixture_and_state_trigger"
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "lemon_in_goblet",
+  "task": "Pick up the lemon and place it into the goblet.",
+  "robot_ip": "192.168.1.237",
+  "initial_pose_mm_degrees": [
+    332.808868,
+    69.979057,
+    450.30603,
+    179.994118,
+    -0.00149,
+    0.000115
+  ],
+  "pose_source": "task1_saved_home_selected_by_user_after_preview",
+  "evidence": "evidence/task1_home_preview_20260909T165834.050956Z/events.jsonl",
+  "position_tolerance_mm": 4.0,
+  "orientation_tolerance_degrees": 0.5,
+  "return_path_verified": false,
+  "note": "Return executed successfully in present scene; no automatic obstacle checking guarantee for subsequent object layouts."
+}

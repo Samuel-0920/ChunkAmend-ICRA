@@ -1,0 +1,3 @@
+Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
+
+These UF850 checkpoints are project fine-tuned derivatives of the Physical Intelligence pi0.5 base model. Model parameter files under 9999/params were modified by task-specific fine-tuning. Training scripts are based on OpenPI; the base model is not an original contribution of this project.

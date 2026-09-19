@@ -1,0 +1,30 @@
+{
+  "status": "ready_for_human_started_collection",
+  "task_id": "fruit_organization",
+  "task_name_en": "Organize the Fruit",
+  "task_prompt_en": "Organize the fruit.",
+  "objects": "水果",
+  "target": "现场指定的收纳位置",
+  "success_condition": "完成水果归纳，夹爪松开并退出",
+  "target_episodes": null,
+  "confirmed": true,
+  "robot_ip": "192.168.1.237",
+  "expected_sdk": "1.17.3",
+  "expected_firmware": "v2.7.1",
+  "initial_pose_mm_degrees": [
+    332.808868,
+    -4.35796,
+    494.787415,
+    179.994118,
+    -0.00149,
+    0.000115
+  ],
+  "home_confirmation": "user requested current pose as home; actual SDK read at 2026-09-08T19:35:21.892851+00:00",
+  "note": "Task and home confirmed by user. Quantity optional/unlimited. User requested direct manual-script startup without a START prompt on 2026-09-08.",
+  "action_zh": "水果归纳",
+  "task_confirmation": "User requested task change to 水果归纳 and all other settings unchanged on 2026-09-08; English is a direct general translation, no fruit type/container/order inferred.",
+  "initial_scene": "按现场水果布局开始",
+  "initial_scene_source": "Task-specific fruit types, containers and order not prescribed by user; no carrot/lid instruction inherited.",
+  "home_evidence": "evidence/CURRENT_HOME_READONLY_20260908T193522197358Z.json",
+  "task_name_zh": "水果归纳"
+}

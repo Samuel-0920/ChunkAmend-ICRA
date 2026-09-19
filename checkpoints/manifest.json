@@ -1,0 +1,828 @@
+{
+  "schema": "chunkamend-public-checkpoints-v1",
+  "repository": "Samuel-0920/ChunkAmend-RealRobot",
+  "tag": "uf850-checkpoints-v1",
+  "contents": "Fine-tuned inference model parameters and matching normalization statistics. No datasets, optimizer state or training logs.",
+  "model_terms": "MODEL_LICENSE.md",
+  "files": [
+    {
+      "task": "task1",
+      "prompt": "pick up the yellow lemon and place it in the basket",
+      "dataset_id": "local/uf850_real_lemon_to_basket_v001",
+      "policy_config": "pi05_uf850_real_lemon_to_basket",
+      "path": "task1-step9999-deploy.tar",
+      "size": 12440842240,
+      "sha256": "844fee6cf8249e94ed2a54919e0a4062aaa12d9175a9091ea5155958ce029483",
+      "parts": [
+        {
+          "name": "task1-step9999-deploy.tar.part000",
+          "size": 536870912,
+          "sha256": "f78a878f0adb2e9878629bf8899ecf4cd8b79d6470b41d2ade8c72dd1a6f7a22"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part001",
+          "size": 536870912,
+          "sha256": "09474fc3c1aeb301b1a3114079535464ecc50fbcc01cb9c561e864ba416dd96d"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part002",
+          "size": 536870912,
+          "sha256": "b461f74181286433a656c1fd835adb48a2d3e8e9a7a335b002b320dcd00a5e8a"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part003",
+          "size": 536870912,
+          "sha256": "e7be1845f44a7ae625cd97c6919e47f10a006bfb94031a377e2b0a0cebc184c1"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part004",
+          "size": 536870912,
+          "sha256": "ed54cb4fe666f3373fb9a9adede6b0e2b11cb780b06d81fe0a62b83ce4dcd9af"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part005",
+          "size": 536870912,
+          "sha256": "4d1b663ed6567ae4421bd46de6871fe45393684a97e1b915f2296b8901607e30"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part006",
+          "size": 536870912,
+          "sha256": "457fc31c269c27e09bbe499b118e8d25e82100c260a47caa6234bb2122aea839"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part007",
+          "size": 536870912,
+          "sha256": "a7691c84aca47ed400c5d481c7139c7ac187669808befc7d9199daa068fd47db"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part008",
+          "size": 536870912,
+          "sha256": "a04cd7cb3fe1473eb38c246a0198eaf1520381f8c977507272dbd55aeb505235"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part009",
+          "size": 536870912,
+          "sha256": "435acf3881bd954c73bf5d805cdb6e8b9934e0b183a8278f1e1969cb72171bc5"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part010",
+          "size": 536870912,
+          "sha256": "66fd0fd545e6e5d35079b905bd21e9ae2a7f0b8b3dfa001a5a581629e98872f0"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part011",
+          "size": 536870912,
+          "sha256": "e9b2a561833798d3dab5d9e3a537501cba72e3328e3eebbbcf70dee49298f361"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part012",
+          "size": 536870912,
+          "sha256": "580e23fbf689f4a4c044ff2c34260e09cf71e93668f9b5d684dbd9329ce77ac8"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part013",
+          "size": 536870912,
+          "sha256": "0d01824de8b547aa701d9f56a3667cccc430154631ee15265f1ce2539d11b54d"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part014",
+          "size": 536870912,
+          "sha256": "1ec1b4d04624bb661ab9176965e159e295b821da107b462d2cf7219b6d3d08a4"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part015",
+          "size": 536870912,
+          "sha256": "e45abcb08768324de5bfe16133c03648c9e17291bdbc33b0baca95f10b328a42"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part016",
+          "size": 536870912,
+          "sha256": "9a75bdbcb578ced01b1df90cdbcfc8e244d8128c659093af14f8f7e7bc488f01"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part017",
+          "size": 536870912,
+          "sha256": "4f4fbdf89e29821198c9e43170b72d1cc8df715b93c8c6121763fb55b73859c4"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part018",
+          "size": 536870912,
+          "sha256": "6153e0d5ca680667d94d95969001973bc5de08c6244f0d0acb354b30acb52b62"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part019",
+          "size": 536870912,
+          "sha256": "6370657fee9797050b72b5baf115d619c495f2efeef1066046f7c811937b8193"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part020",
+          "size": 536870912,
+          "sha256": "11549996ff239a8b60549fe8dffb87af5343c80c9ff2d56919f2f2e8df5633d9"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part021",
+          "size": 536870912,
+          "sha256": "9f3b0b7e6e27f1bb732fe5692f106fd642ae3e22f1833a1a55f8a101f16c4b9d"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part022",
+          "size": 536870912,
+          "sha256": "a56fd93406517d97194af587df43b52a6d48a9a1a168f059132238b34a221f1e"
+        },
+        {
+          "name": "task1-step9999-deploy.tar.part023",
+          "size": 92811264,
+          "sha256": "e0258c29d01bad9f007e20b4b39a7cb9566754f01dc8ae968d64b595cd6a77a5"
+        }
+      ],
+      "members": [
+        {
+          "path": "9999/params/ocdbt.process_0/d/c8d59fc35fcc285d79050e1899ac255e",
+          "size": 217,
+          "sha256": "b38971585ddef3a8d6286893f2929c64c0e2e0f6d637947b5b6a58f1af7933a5"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/d4ff864f75178fd56b8e12467f4c8999",
+          "size": 811,
+          "sha256": "aee958c43dcaad298a6c8aa3d68fc103f68a61b1b2b38a57ef2f5265f185c83a"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/9710b99962401061a122eda91934b5b7",
+          "size": 979,
+          "sha256": "af935411b7b0624f710aadc931eb78c609ecffc17898e7c8158add1c36119e58"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/5f596d3e3dae3dc2eb2ceb25989a6905",
+          "size": 251388079,
+          "sha256": "37b975623a6ba9b78d9cbc4f2f0e3c0bc42614fcaf9ff8b8f234bafd97219a93"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/d637d3c28cfe233aee355f8debd525e6",
+          "size": 484957687,
+          "sha256": "88eaff30ef885e1b7c30363919fdba7fb4119fd4d0a629e9b422221b3d48bef7"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/41cac93376c937288be4ef92ae45fa0d",
+          "size": 964385902,
+          "sha256": "edbdf30e71b1c73f9b502c1e828f796700d8bbf343d9d21a54ece86a9afdff90"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/95c088681b5612ce6be90bf225318a83",
+          "size": 35022585,
+          "sha256": "919f78bb16657d729449e0bad639473427aa2dd38f58a88e674eaf4c45cff43d"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/32408b3f0ed98304903d4e9d744995d7",
+          "size": 52449003,
+          "sha256": "1efb546cc7661ff6c590afec50811d34ca782729cbc233231dc5241da4f8ae18"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/c54c931c02922ea42772243a18ee682e",
+          "size": 105431213,
+          "sha256": "b7e51c472c143d8662cad7a8b263b1e78b186a35f800146d38690ab91bee7d4c"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/6a5ae5698aeb2621047cd2a36317639e",
+          "size": 14187,
+          "sha256": "6e6fd91a920565eb549f59b0fd08e0c61eb209156c31ce410198c585f7d2868e"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/831770a7d99b77143d1bfb4324284ad6",
+          "size": 105222137,
+          "sha256": "ef29a6078d7c412802868f017ab023b7609e2a895c9f8f860819b2c599168f3a"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/afb2ac75577fc49f57640595aeb9bebe",
+          "size": 248591592,
+          "sha256": "8b077b7f1f90e6899b5472af8d68e72b7c2a4f531b5e7d0c6f25d995b347cd1a"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/75c57837f5ae40b7fc23d3f3081ad53e",
+          "size": 264294498,
+          "sha256": "7bc3dffd6390c75ca01ee524d192a83a6f725fea2c4103363d14e1b806c3486f"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/a396ad386b1c73bac86b7cc4564c6788",
+          "size": 318672494,
+          "sha256": "1b61975b2905836359ef4d675b1d4b831acf6c5e2991d987f40e39687dab553c"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/2ab477613e6d4de207ae56062f6011c9",
+          "size": 388318510,
+          "sha256": "65110ae407a37e03de75e887f2bf134b794d0d548c1288c82be7fce34e617d10"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/ec7e2ce49a9495850535dad801164656",
+          "size": 139805994,
+          "sha256": "abf745b4137f4ad45b69f9fb6ec093be65a75a38c4592a9f7b6e30d9ef215d10"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/dd77d322c4f0b656d27d729d6f439c41",
+          "size": 124333577,
+          "sha256": "a3150db842a4f6dd25f76320d7aab2b8d40737e47533ef93e52d2fd4d4cd8d8b"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/c0afbab33314b2898e0a3fe628550247",
+          "size": 139806527,
+          "sha256": "73614cb637d0bf877b33360b04165df71232d97fe6c7aae17b4e43c8737836c4"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/175ed4a5823e835545e11d9a3c1f8e99",
+          "size": 139806465,
+          "sha256": "e9ba0f3f8dd067096d63ef9205bf2df295f60cb076efed438f7a3b342095caaa"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/2c8aa3168e522d2b3b9a8ef0587b977c",
+          "size": 489204346,
+          "sha256": "efec7a191c9669b8e3e85d033ab5a0ce3f9084a40d22195f8459668530e6e2ba"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/433a93bf0a8a495dd18d295fc0034701",
+          "size": 2588104545,
+          "sha256": "c321532b3cfa9f4b7e77f857f3e10f1d49ef88142c3b7c529a2b8968f02e408b"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/ca7b19cba4c518df7378bdf4cb792898",
+          "size": 1120299739,
+          "sha256": "8419228410aff902683516bf4e59b5ff70f112e368413557cb44e364a40da2c2"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/88ef88b903128571c63c7167099b666c",
+          "size": 2240316952,
+          "sha256": "17e00ac2c7ec0bdbbb9f2e5eb5c1561e9c6404f82877da0177c72f8f3e8e073a"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/7b19356f4d62fb970b5ad5ec25382023",
+          "size": 2240300622,
+          "sha256": "4c0fe678c1e8ebb23720f85c50e7869c3e9584bb26f55885655835bf1a1211bd"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/ee099fabf0f53641a81af2022c8163ad",
+          "size": 14931,
+          "sha256": "dec368ba2622aa525f43e06d3aee9b8c26af3d2af6db646ef3537879f8c2cdf4"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/manifest.ocdbt",
+          "size": 426,
+          "sha256": "9ef073c4bd2ac23eb9771441769c7719d90385e5f693dda2fdd445c93b8cea0e"
+        },
+        {
+          "path": "9999/params/array_metadatas/process_0",
+          "size": 9072,
+          "sha256": "4841ac8c8e3cde2cd592513ceb3fd02594646be0ad08d5d4b83b6807db128d82"
+        },
+        {
+          "path": "9999/params/_sharding",
+          "size": 15300,
+          "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+        },
+        {
+          "path": "9999/params/_METADATA",
+          "size": 23498,
+          "sha256": "2912d15ba42fe0d742b5ac46e88804dacce69644369b4cf9b7405cf7d8fe7247"
+        },
+        {
+          "path": "9999/params/d/008c32442ee4ae01c0e9e89947720933",
+          "size": 14947,
+          "sha256": "59abb64cefd4b7ecb9f4d7a4beb58a406d00fd380a5afb5f6362423bab1f0e68"
+        },
+        {
+          "path": "9999/params/manifest.ocdbt",
+          "size": 118,
+          "sha256": "2cea87021689d013d13b04f538d4c53be45416658ce5a80058f5899d76d6cde4"
+        },
+        {
+          "path": "9999/assets/local/uf850_real_lemon_to_basket_v001/norm_stats.json",
+          "size": 1852,
+          "sha256": "53172391b499916e073ce50dfc451c91fe4d70402ccc58b5a9991b62c1f44d82"
+        }
+      ]
+    },
+    {
+      "task": "task2",
+      "prompt": "Organize the fruit.",
+      "dataset_id": "local/uf850_fruit_organization_v001",
+      "policy_config": "pi05_uf850_fruit_organization",
+      "path": "task2-step9999-deploy.tar",
+      "size": 12440729600,
+      "sha256": "67e60ca92429407e8896a6bbdbcc17258498d587b3af859e8fa490b32491fabb",
+      "parts": [
+        {
+          "name": "task2-step9999-deploy.tar.part000",
+          "size": 536870912,
+          "sha256": "8eb7f611bb0384a677baab2ec821f282a1744e0fe394d0a0fd96a0513da5940a"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part001",
+          "size": 536870912,
+          "sha256": "9798c15d48531115808534d551b843cbdb211c6f6c58ca436d2a5581f95c1224"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part002",
+          "size": 536870912,
+          "sha256": "30d4491ea2caff98590410273da574b9c61b362297e20bfde955619a23b4983a"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part003",
+          "size": 536870912,
+          "sha256": "bf4a85b7808968d95ce6af8e196a3d51e1a1aa36c94cec0b0b19939eefa07eb4"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part004",
+          "size": 536870912,
+          "sha256": "36b7a6ea718c9950d05c7ec91aa31a38db2768d91f119eaf624a8afb0703cacf"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part005",
+          "size": 536870912,
+          "sha256": "293873d69e3566f7af6a0354ab4899342203f2a367968c741845e60bb5323573"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part006",
+          "size": 536870912,
+          "sha256": "1ab125435876d9d0939bea4b1c88c7eaa5e7879ce322fd1b341f78cc61878284"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part007",
+          "size": 536870912,
+          "sha256": "2f9af697169e79b9c33b22a826939805fbf81a2d06752616fef7f20d874a0d3b"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part008",
+          "size": 536870912,
+          "sha256": "9ae41af15fd9cb1635cd8b320d349e2ea7e1bba40f69dab60603296d6ad09c7c"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part009",
+          "size": 536870912,
+          "sha256": "373d27ba38109fc0eb2b6953079c079c29ab1577ba5c86a2b8cf25ae3421c4f8"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part010",
+          "size": 536870912,
+          "sha256": "cc858955120b712a38bcf761dfbdc901f9da0f55bd94c0cec7390ed8ec64ef0d"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part011",
+          "size": 536870912,
+          "sha256": "8f9015a796369dc7b387f48c67d726f8b6595e627fc1b8d77f78be788610ec6b"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part012",
+          "size": 536870912,
+          "sha256": "6ed1b066c5ca593d416ff612ce76927f93ab7f4bb17fb279dde70f05dbd40e73"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part013",
+          "size": 536870912,
+          "sha256": "9739565222176ebca60c99af89cbe9bed005330258e0e3a38ebdbc5f369d94d2"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part014",
+          "size": 536870912,
+          "sha256": "cf391711a7533fa3f7e1a64d015a977449e58eea21d5bbb2dc11b0fcd7637fe3"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part015",
+          "size": 536870912,
+          "sha256": "a1f1b2f5437075544837d42fd8c6ab54624ccdc3200479de8fe838431fc0fe1e"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part016",
+          "size": 536870912,
+          "sha256": "53b1faec9741689d6e68825d7cdd6004a93e33f7a3273a47979ed2ac639b2c5e"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part017",
+          "size": 536870912,
+          "sha256": "a065c81cc694045725ca5f256b26408d92d20508c4514b165fae863eb329cdb9"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part018",
+          "size": 536870912,
+          "sha256": "77027e0cb2a41d187d9f2dc8d527670208b5fc86ac5d768523e9add22faac97a"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part019",
+          "size": 536870912,
+          "sha256": "28fb5db8738b2a401afef43a919d7e8fdf0ba67cca8fcde727d4c0edff7e7e61"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part020",
+          "size": 536870912,
+          "sha256": "bd43f9d1b0c96410d825fed997bdfea318eee57a6496517f456f60956a87ab83"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part021",
+          "size": 536870912,
+          "sha256": "f2bc70f75faa381bd7a44fe19827f5ac99acee673c1a133361f2c914ed71d4f9"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part022",
+          "size": 536870912,
+          "sha256": "7d0cf7b57db07844c16cd92314229c6770b8be1e9d896428e8efe175738aab5a"
+        },
+        {
+          "name": "task2-step9999-deploy.tar.part023",
+          "size": 92698624,
+          "sha256": "6b8b20bbf4851482fdf4e4efce3465960be6fb230a585899bd1ede9ef6d81586"
+        }
+      ],
+      "members": [
+        {
+          "path": "9999/assets/local/uf850_fruit_organization_v001/norm_stats.json",
+          "size": 1863,
+          "sha256": "d48e7330bc34d922c3505da9448bd325eee9bd67acdd86c2b33daab2cc5f4875"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/5424ded91fe6c9fa8597b64d4ab5a159",
+          "size": 217,
+          "sha256": "b38971585ddef3a8d6286893f2929c64c0e2e0f6d637947b5b6a58f1af7933a5"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/7233c6b46d496f773626c20036731e17",
+          "size": 1093,
+          "sha256": "af4c590882ce01fe329581143e7313f9757561773501a644d1ab90c12f301d80"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/ba228956e39779f534743d734a3d549e",
+          "size": 8083037,
+          "sha256": "75d446a340c93a2e81425f6e7eab54054ff303c4b9b5f9dd47a7edad1efc9219"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/ff995df5de74a77bb3234202652f1714",
+          "size": 495268479,
+          "sha256": "7ab11a2cb3fe49472115a3b0a0fef8b3b38347d6fa846d9ea7e097d1dfecb1d1"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/0914769d4db2c6dda3633a43357a9128",
+          "size": 1302904607,
+          "sha256": "b53cb1243f42bdb3812c991fc580f91dc9adf686289f3a9930c8338bb121c74e"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/b49d04aa29f28acbd3a15df81643da3b",
+          "size": 402594552,
+          "sha256": "7118127cb3a32fdf7116afa98437ff9d8d2560e8609bd288087615dd4e7088e4"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/22fb77517bc78dc0948189a9d34f5671",
+          "size": 528177967,
+          "sha256": "8ed42914cd10232f868efcb3aeff1a5d12218c4d67082bdb4214f6c72c2184ca"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/a207ff6de151b14e2bec67841a07a56c",
+          "size": 497105247,
+          "sha256": "fc4e47d15a4a9848e79f2ed0e408debb3c5d7682eee45de459ecf90aff75a530"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/439078378177e95957666ad0523ead7c",
+          "size": 139806761,
+          "sha256": "1efeec5b5d7df7a652b30f6ea4c8c4914ab78d049eaf5cc009441d9ab1d10621"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/4149862f87e5f0ff1c6c4ac5e55f8dd3",
+          "size": 139806660,
+          "sha256": "51c3ee1971b85002593c3f57b31481fc3c6e95ea5fa1e613729a54736e87ea04"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/7767deddc664df9fbcbc30ede09e5b89",
+          "size": 248645734,
+          "sha256": "81687816a69f31b37a9e48a09d080479bc32eebcd3ec57c714efde8cc8be4319"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/31be0ef06ddc24cb67a988bbe1a9341b",
+          "size": 978666818,
+          "sha256": "437ad8ffb44a9bd04b9f9dfb05267b67ee4a1a649891922ee1630db145e86422"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/0a8154e3b63b4cee34668affef53b99a",
+          "size": 2658786450,
+          "sha256": "f1c4c63de949c741113b8a4591ce332f66cb5cffd0dac4865bda30f8c5873a12"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/072834fc75f9a686820d85b79a0db21d",
+          "size": 560163351,
+          "sha256": "565d39399be56ef5c175ee02d7c2c150ca168f0bcb5448dba420b14ee3ea0560"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/eca00365d228e3907465ac21d583c760",
+          "size": 2240308474,
+          "sha256": "d745e6d118f59bb71001293eba92978c2ab6827e973f458c9c23a76bf7e9121d"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/ffe0d436e318b2c66c3409d054562cd0",
+          "size": 2240303257,
+          "sha256": "e7b07ca07534869ba21f8f22ce08eb8768b4f9d8fa5876bc64f850d6170ee045"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/89002c04aec25aa5b49b9b09d4139312",
+          "size": 15727,
+          "sha256": "3a8e7a2986be1e462f15f4d834c8d55b02e85b7a82ab3d1dc77059b5be277a32"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/manifest.ocdbt",
+          "size": 717,
+          "sha256": "a6118b8f2f05fd12c03fbab1a14859e5a0311ba6a656861a288c78e460c8d832"
+        },
+        {
+          "path": "9999/params/array_metadatas/process_0",
+          "size": 9072,
+          "sha256": "4841ac8c8e3cde2cd592513ceb3fd02594646be0ad08d5d4b83b6807db128d82"
+        },
+        {
+          "path": "9999/params/_sharding",
+          "size": 15300,
+          "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+        },
+        {
+          "path": "9999/params/_METADATA",
+          "size": 23498,
+          "sha256": "2912d15ba42fe0d742b5ac46e88804dacce69644369b4cf9b7405cf7d8fe7247"
+        },
+        {
+          "path": "9999/params/d/f1a3a30c0ad00556faf0b46fcef7a7fa",
+          "size": 15743,
+          "sha256": "016e8cddf741bc6c4c6b143be4b56c4e4d6b9f649e7c3b37fe308f84a0b9ba0e"
+        },
+        {
+          "path": "9999/params/manifest.ocdbt",
+          "size": 118,
+          "sha256": "45ba89f03e2c8bf297aecb8bede14228349c0655e117b39156b90f34ca31871b"
+        }
+      ]
+    },
+    {
+      "task": "task3",
+      "prompt": "Pick up the lemon and place it into the goblet.",
+      "dataset_id": "local/uf850_task3_lemon_goblet_lerobot_v001",
+      "policy_config": "pi05_uf850_task3_lemon_goblet",
+      "path": "task3-step9999-deploy.tar",
+      "size": 12440780800,
+      "sha256": "0fcc2f31abf422a989d9cb784e1df512263676c06494da7452633b64d98113c4",
+      "parts": [
+        {
+          "name": "task3-step9999-deploy.tar.part000",
+          "size": 536870912,
+          "sha256": "97fd9a398492adc1b6d5014b926fb3505c9a09413cd5dce1ccdd043b7395650d"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part001",
+          "size": 536870912,
+          "sha256": "c82d0f3b80b59dea7f12fbf87b63e3c4111f0ab5ccdaa38f27435ef745b5c2e6"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part002",
+          "size": 536870912,
+          "sha256": "a85c24e1b419cb58e88ed5d805ca9b8e257bc4486b7c27b2ddd69d92b3bf90f6"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part003",
+          "size": 536870912,
+          "sha256": "b330667c242cf6bd4d5b88a723b73e7bc00393f926ab32b217a935c5721d23ed"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part004",
+          "size": 536870912,
+          "sha256": "fdc1510aec25eb7c706abacdaec63d9252ecdf63580f11c05053288b9532f8d8"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part005",
+          "size": 536870912,
+          "sha256": "06aaf3865774ee787224247866eddcd99d8c530f41ff1a2ea7ba5ec8b9887744"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part006",
+          "size": 536870912,
+          "sha256": "433587c54de1ea8584f0e633f3432603d9e5c8ea4354c0bad38084d7176fee22"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part007",
+          "size": 536870912,
+          "sha256": "e32b5cdada49f64824f07e01c5b930f533f5ecebb461177f4802bfd7567be335"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part008",
+          "size": 536870912,
+          "sha256": "4c64772f9611c8a0d3e6239a040aa3187b4cae1792d38fab39e775f18ebd885d"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part009",
+          "size": 536870912,
+          "sha256": "9873cb2a078bbe963a8e147d75ce368657b83129e0d3b8c3c2ae93bdafcbfbb2"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part010",
+          "size": 536870912,
+          "sha256": "f38bc9b7d55558c61e08402d8d6eddc50bd34ea6b495eeb3b6ff8e5ef639adda"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part011",
+          "size": 536870912,
+          "sha256": "a22e256d0f3ba9855d50afab3a1d152f1a93ca48a3fd61ebf300a2ebc170d349"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part012",
+          "size": 536870912,
+          "sha256": "60865025713bb3e0658fdbea992317e5bbcb82f89e2cbf4ef64ea77131f12716"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part013",
+          "size": 536870912,
+          "sha256": "a2faf75531c8c9415522d9e263b7f72c19357626fcb7cd9ad9d4b1257600a999"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part014",
+          "size": 536870912,
+          "sha256": "5454b6c85f43615ecd7ce3803aecea4f20bf1a566a6cd7e0a809725a7b3a5ba0"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part015",
+          "size": 536870912,
+          "sha256": "74df843da84b70ffe4d42b844ac9e664ac05fe6bacfddcb20f66f806f09e1bba"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part016",
+          "size": 536870912,
+          "sha256": "f61b15ce01f653fa4f4f3e56bea3d45a668de6c185c501dbada523c774373330"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part017",
+          "size": 536870912,
+          "sha256": "9375eba67cc6a0315fba912afab381fad7e1561a307a6df33e6c204c683ec16a"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part018",
+          "size": 536870912,
+          "sha256": "69bcf0f32b9ff86d6ba03eacea0a0196479915e5071e7e3fe01c0db36ed2b101"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part019",
+          "size": 536870912,
+          "sha256": "14babaa148a79f279b746e8d853f36a3e0ca554045a0bb90b4efff0401b6871f"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part020",
+          "size": 536870912,
+          "sha256": "f1122b2d955f2c85c34d9c0f1c170fbf4beb6b7124ee387403e2a712a6df3ab5"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part021",
+          "size": 536870912,
+          "sha256": "990e430076626a6aacf8da564e38b630f4cfc4bfae0d347d315857f37002182f"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part022",
+          "size": 536870912,
+          "sha256": "6efaaa52873934c4466cd762bdeccfcdfe64ab073fdd0a481975f6d30d866c1b"
+        },
+        {
+          "name": "task3-step9999-deploy.tar.part023",
+          "size": 92749824,
+          "sha256": "a42e3cb53ce0d7089ac549d3d58b63b5f6aa5eee0ca5d167c653a4046452e211"
+        }
+      ],
+      "members": [
+        {
+          "path": "9999/_CHECKPOINT_METADATA",
+          "size": 426,
+          "sha256": "012de1de39dbea71afa0515d41720814507a076c7282577ef6ca7f1482891c9c"
+        },
+        {
+          "path": "9999/assets/local/uf850_task3_lemon_goblet_lerobot_v001/norm_stats.json",
+          "size": 1890,
+          "sha256": "cc107bba4344ae66f5b03fe7ef59483474ac6918351038114c82eb9ef85204ea"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/f3589263ea7c2fc2260a901aaa56974e",
+          "size": 217,
+          "sha256": "b38971585ddef3a8d6286893f2929c64c0e2e0f6d637947b5b6a58f1af7933a5"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/77b333e0138abb4e9ef8a7e305efb0ed",
+          "size": 867,
+          "sha256": "9f8bcc4ef38f78b1ec9fa91c317aba2be61670435c9f791cebed5e6fdac159b5"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/49a2d5e0cc631eeb4304fb12d01b8a14",
+          "size": 1093,
+          "sha256": "af4c590882ce01fe329581143e7313f9757561773501a644d1ab90c12f301d80"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/9fb8f173f6e64ecfd4cb7ed8f717adc5",
+          "size": 5753194,
+          "sha256": "01191d3111cf84cbad01d6bd1570314186feea91e59bcde2cc3fe167913372f4"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/2df0bdbc77ebc856ad4668aa582300ae",
+          "size": 97480301,
+          "sha256": "18494325475ed3c5d71f4b89b7e552a429096755e9f1db77892b5fc1e607feb1"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/47fcc908d9f9c21a79cf5d071d9825d9",
+          "size": 350652685,
+          "sha256": "a41054c5c85fa0b0360232847f9ed907bcfec0a7cb2a96f99c903442216055ac"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/907c6b4c9994cf9570ade8bca1b0e6ba",
+          "size": 704182156,
+          "sha256": "56577a73af4193256a3e81d8be9091ee8be0573e69824bf997c44f728416c9d6"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/f41cf62f4340a4c01545393214385c48",
+          "size": 770778723,
+          "sha256": "7d65a30e34b0438730d0daf702c38be0ca43cc81a99d903c3b74c26963e02215"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/58016fc802114f5edd5cb025a9a9f8fa",
+          "size": 280053335,
+          "sha256": "216a291323948dfa18d041766bdeed270ec397b0b74090b0962d92768729ede3"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/1f00c52928ace5c4a490975c8e4c1f85",
+          "size": 372842949,
+          "sha256": "9cc903231323bf92a14b12286f30b46a367621d2d8b4ae862f0cdf66527fa5ad"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/438376cd5c77e8999fcc565b24b631d4",
+          "size": 124327130,
+          "sha256": "56cf9ef50635fcda12eec67a28e70efac29569e9b391be1bfe9d106c269b1752"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/9a92785ed082bc28c80124bda4b2aff9",
+          "size": 139803384,
+          "sha256": "6b79286b27fd75978640f3238c1daf6b8d4507a485d9f9bb14df47ef1ad84777"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/d74de5305621b41b90e38ea6daff8107",
+          "size": 403857472,
+          "sha256": "4b958b70b82ede813da0e615481ce1b956af98b4674962343ad09d5668d2f6d5"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/8ecf6af2b2c86103ba99ebd91235e7ee",
+          "size": 372916410,
+          "sha256": "58d587d8cd5122ea5027a69257b8136f8fb305683003e26ec1fb49ec8247cf0f"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/2cb7e7fb13b7fed7711701c8c57b408f",
+          "size": 139805917,
+          "sha256": "1e38f11d9cacae77dce029e06b404f13b1908e3347ea84def05786c686947dd3"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/b4c139d4bb2a9168a3f1871b03bb8bc6",
+          "size": 489173272,
+          "sha256": "73ab05680b15965b61e9ffa6456d014add327fbb7b0751f17f4a716a916154c5"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/83022a6492d797b4dd02229469fa423f",
+          "size": 2588134821,
+          "sha256": "f7b21f5913fa9b2630ea2c16e49af19721e76503ea8a990dc2ffb81d1af434ec"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/ee6cdd1aed6beeeeb3d979d6d7baef91",
+          "size": 2240458436,
+          "sha256": "755af848c8ab7b40a501c2270be7c29f6830f3db8913730c7961e04fd88fca5c"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/e339495f8f11e0c861e5e8b08a9e4293",
+          "size": 2240305936,
+          "sha256": "59c339d19f84e6ad1ce3046b2a086d4eac12f76e68301bb240717f4bf2d59dce"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/d/9df2562a23d5e1c27192987076c63f76",
+          "size": 1120164573,
+          "sha256": "702ff701b47560cdb41fe1e02001648ad9988510f6489f2a0b4d96bee0807e63"
+        },
+        {
+          "path": "9999/params/ocdbt.process_0/manifest.ocdbt",
+          "size": 202,
+          "sha256": "0b1c844a4432bf16c43855af65bf1d5f4a6dc16d49e05b36a585b30a3e20f97c"
+        },
+        {
+          "path": "9999/params/array_metadatas/process_0",
+          "size": 9072,
+          "sha256": "4841ac8c8e3cde2cd592513ceb3fd02594646be0ad08d5d4b83b6807db128d82"
+        },
+        {
+          "path": "9999/params/_sharding",
+          "size": 15300,
+          "sha256": "1e9d1ab166a3644c567742d374d6ff2bf61bfa33ec505c36e24a3b34ebf700f3"
+        },
+        {
+          "path": "9999/params/_METADATA",
+          "size": 23498,
+          "sha256": "2912d15ba42fe0d742b5ac46e88804dacce69644369b4cf9b7405cf7d8fe7247"
+        },
+        {
+          "path": "9999/params/d/68685d7e50ae7768322918291a0dca64",
+          "size": 14896,
+          "sha256": "4e7857692bff1a87e97555eb726f7ae577be97d27fa8eff65ccf91dd5535da92"
+        },
+        {
+          "path": "9999/params/manifest.ocdbt",
+          "size": 118,
+          "sha256": "d247f1816a70b4cd6359168dfe18224ef20f8972094a4c92a71c2fc333757e20"
+        }
+      ]
+    }
+  ]
+}

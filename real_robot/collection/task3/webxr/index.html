@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest 3 手柄读取 (USB)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        #ui {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #27ae60;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            margin-bottom: 20px;
+        }
+
+        #status {
+            margin: 20px 0;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .disconnected { background-color: #e74c3c; }
+        .connected { background-color: #27ae60; }
+        .connecting { background-color: #f39c12; }
+
+        #startButton {
+            padding: 20px 50px;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s;
+            margin-top: 20px;
+        }
+
+        #startButton:hover {
+            transform: translateY(-2px);
+        }
+
+        #startButton:disabled {
+            background: #95a5a6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .info {
+            margin-top: 20px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        #log {
+            margin-top: 20px;
+            max-height: 150px;
+            overflow-y: auto;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 10px;
+            font-family: monospace;
+            font-size: 0.8em;
+            text-align: left;
+        }
+
+        canvas {
+            display: none; /* 隐藏 canvas,只用于 WebGL */
+        }
+    </style>
+</head>
+<body>
+    <div id="ui">
+        <h1>🎮 Quest 3 手柄读取</h1>
+        <div class="badge">USB 模式</div>
+        <div id="status" class="disconnected">未连接</div>
+        <button id="startButton">开始 VR 模式</button>
+        <div class="info">
+            <p>✓ USB 连接 - 无需 WiFi</p>
+            <p>点击按钮后,戴上头显进入 VR</p>
+            <p>手柄数据将实时发送到服务器</p>
+        </div>
+        <div id="log"></div>
+    </div>
+    <canvas id="glcanvas"></canvas>
+
+    <script>
+        const statusDiv = document.getElementById('status');
+        const startButton = document.getElementById('startButton');
+        const logDiv = document.getElementById('log');
+        const canvas = document.getElementById('glcanvas');
+
+        let ws = null;
+        let gl = null;
+        let xrSession = null;
+        let xrRefSpace = null;
+
+        // 日志
+        function log(message) {
+            const time = new Date().toLocaleTimeString();
+            logDiv.innerHTML = `[${time}] ${message}<br>` + logDiv.innerHTML;
+        }
+
+        // 更新状态
+        function updateStatus(status, className) {
+            statusDiv.textContent = status;
+            statusDiv.className = className;
+        }
+
+        // 初始化 WebGL (延迟到 VR 会话启动时)
+
+        // 连接 WebSocket
+        async function connectWebSocket() {
+            return new Promise((resolve, reject) => {
+                updateStatus('正在连接服务器...', 'connecting');
+                log('连接到 WebSocket 服务器...');
+
+                ws = new WebSocket('ws://localhost:8765');
+
+                ws.onopen = () => {
+                    updateStatus('已连接服务器 (USB)', 'connected');
+                    log('✓ WebSocket 连接成功!');
+                    resolve();
+                };
+
+                ws.onerror = (error) => {
+                    updateStatus('连接失败', 'disconnected');
+                    log('✗ 连接错误,请确保服务器正在运行');
+                    reject(error);
+                };
+
+                ws.onclose = () => {
+                    updateStatus('连接断开', 'disconnected');
+                    log('WebSocket 连接已关闭');
+                };
+            });
+        }
+
+        // 发送手柄数据
+        function sendControllerData(frame) {
+            if (!ws || ws.readyState !== WebSocket.OPEN || !xrSession || !xrRefSpace) {
+                return;
+            }
+
+            const data = {
+                timestamp: Date.now(),
+                left: null,
+                right: null
+            };
+
+            // 读取手柄数据
+            for (const source of xrSession.inputSources) {
+                if (source.gripSpace) {
+                    const gripPose = frame.getPose(source.gripSpace, xrRefSpace);
+
+                    if (gripPose) {
+                        const pos = gripPose.transform.position;
+                        const ori = gripPose.transform.orientation;
+
+                        const controllerData = {
+                            position: { x: pos.x, y: pos.y, z: pos.z },
+                            orientation: { x: ori.x, y: ori.y, z: ori.z, w: ori.w },
+                            buttons: []
+                        };
+
+                        // 按钮状态
+                        if (source.gamepad) {
+                            controllerData.buttons = source.gamepad.buttons.map(button => ({
+                                pressed: button.pressed,
+                                touched: button.touched,
+                                value: button.value
+                            }));
+
+                            // 摇杆
+                            if (source.gamepad.axes.length > 0) {
+                                controllerData.axes = Array.from(source.gamepad.axes);
+                            }
+                        }
+
+                        // 存储到对应手柄
+                        if (source.handedness === 'left') {
+                            data.left = controllerData;
+                        } else if (source.handedness === 'right') {
+                            data.right = controllerData;
+                        }
+                    }
+                }
+            }
+
+            // 发送数据
+            if (data.left || data.right) {
+                try {
+                    ws.send(JSON.stringify(data));
+                } catch (error) {
+                    console.error('发送数据失败:', error);
+                }
+            }
+        }
+
+        // VR 渲染循环
+        function onXRFrame(time, frame) {
+            // 清空屏幕(必须,否则不会触发下一帧)
+            gl.clearColor(0, 0, 0, 1);
+            gl.clear(gl.COLOR_BUFFER_BIT);
+
+            // 发送手柄数据
+            sendControllerData(frame);
+
+            // 请求下一帧
+            xrSession.requestAnimationFrame(onXRFrame);
+        }
+
+        // 开始 VR 会话
+        async function startVRSession() {
+            try {
+                // 检查 WebXR 支持
+                if (!navigator.xr) {
+                    alert('此浏览器不支持 WebXR!');
+                    log('✗ 浏览器不支持 WebXR');
+                    return;
+                }
+
+                const isSupported = await navigator.xr.isSessionSupported('immersive-vr');
+                if (!isSupported) {
+                    alert('此设备不支持 VR!');
+                    log('✗ 设备不支持 VR');
+                    return;
+                }
+
+                log('正在启动 VR 会话...');
+                startButton.disabled = true;
+                startButton.textContent = '正在启动...';
+
+                // 初始化 WebGL 上下文（必须在 VR 会话之前）
+                if (!gl) {
+                    try {
+                        gl = canvas.getContext('webgl2', { xrCompatible: true });
+                        if (!gl) {
+                            gl = canvas.getContext('webgl', { xrCompatible: true });
+                        }
+                        if (!gl) {
+                            throw new Error('无法创建 WebGL 上下文');
+                        }
+                        log('✓ WebGL 上下文已创建 (XR 兼容)');
+                    } catch (e) {
+                        alert('WebGL 初始化失败: ' + e.message);
+                        log('✗ WebGL 初始化失败: ' + e.message);
+                        startButton.disabled = false;
+                        startButton.textContent = '开始 VR 模式';
+                        return;
+                    }
+                }
+
+                // 确保 WebGL 上下文为 XR 兼容
+                await gl.makeXRCompatible();
+                log('✓ WebGL 已设置为 XR 兼容模式');
+
+                // 连接 WebSocket
+                await connectWebSocket();
+
+                // 请求 VR 会话
+                try {
+                    xrSession = await navigator.xr.requestSession('immersive-vr', {
+                        optionalFeatures: ['local-floor']
+                    });
+                } catch (e) {
+                    // 如果失败，尝试不带特性的会话
+                    xrSession = await navigator.xr.requestSession('immersive-vr');
+                }
+                log('✓ VR 会话已启动!');
+
+                // 创建 WebGL 层(关键!)
+                const glLayer = new XRWebGLLayer(xrSession, gl);
+                await xrSession.updateRenderState({ baseLayer: glLayer });
+                log('✓ WebGL 渲染层已创建');
+
+                // 获取参考空间
+                try {
+                    xrRefSpace = await xrSession.requestReferenceSpace('local-floor');
+                    log('✓ 使用 local-floor 参考空间');
+                } catch (e) {
+                    try {
+                        xrRefSpace = await xrSession.requestReferenceSpace('local');
+                        log('✓ 使用 local 参考空间');
+                    } catch (e2) {
+                        xrRefSpace = await xrSession.requestReferenceSpace('viewer');
+                        log('✓ 使用 viewer 参考空间');
+                    }
+                }
+
+                startButton.textContent = 'VR 运行中...';
+
+                // 会话结束处理
+                xrSession.addEventListener('end', () => {
+                    log('VR 会话已结束');
+                    xrSession = null;
+                    startButton.disabled = false;
+                    startButton.textContent = '开始 VR 模式';
+                    if (ws) {
+                        ws.close();
+                    }
+                });
+
+                // 开始渲染循环
+                xrSession.requestAnimationFrame(onXRFrame);
+                log('✓ 开始读取手柄数据...');
+
+            } catch (error) {
+                console.error('启动 VR 失败:', error);
+                log('✗ 错误: ' + error.message);
+                alert('启动 VR 失败: ' + error.message);
+                startButton.disabled = false;
+                startButton.textContent = '开始 VR 模式';
+            }
+        }
+
+        // 绑定按钮
+        startButton.addEventListener('click', startVRSession);
+
+        // 页面加载完成
+        log('页面已加载 (USB 模式)');
+        log('WebSocket 地址: localhost:8765');
+    </script>
+</body>
+</html>

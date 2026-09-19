@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "robot": "UF850",
+  "robot_ip": "192.168.1.237",
+  "task": "pick up the yellow lemon and place it in the basket",
+  "dataset": "local/uf850_real_lemon_to_basket_v001",
+  "policy_config": "pi05_uf850_real_lemon_to_basket",
+  "horizon": 15,
+  "execute_steps": 5,
+  "fps": 30,
+  "discrete_state_input": true,
+  "action_semantics": "absolute_joint_radians_and_gripper_open_fraction",
+  "camera_serials": {
+    "front": "218523064118",
+    "wrist": "221123062231"
+  },
+  "checkpoint": "checkpoints/task1/9999",
+  "home_mm_deg": [
+    332.808868,
+    69.979057,
+    450.30603,
+    179.994118,
+    -0.00149,
+    0.000115
+  ],
+  "rpc_timeout_s": 0.3,
+  "watchdog_s": 0.75,
+  "training_config_confirmed": true,
+  "home_position_tolerance_mm": 4.0,
+  "home_orientation_tolerance_deg": 0.5,
+  "home_reset": {
+    "speed_mm_s": 40.0,
+    "acceleration_mm_s2": 100.0,
+    "settle_position_mm": 4.0,
+    "settle_orientation_deg": 0.5,
+    "timeout_s": 60.0
+  },
+  "execution_protocol": "operator_end_elapsed_time_v1",
+  "task_id": "task1",
+  "port": 8021,
+  "controller_normalization": "real_robot/task_configs/task1/controller_normalization.json",
+  "openpi_root": "real_robot/training/task1/training/openpi",
+  "rtc": {
+    "seed": 0,
+    "num_steps": 10,
+    "max_guidance_weight": 5.0,
+    "s_min": 5,
+    "d_init": 2,
+    "delay_history": 10
+  },
+  "method": "UF850_H15_ASYNC_RTC_Q3_Q6_V001",
+  "path_base": "repository_root",
+  "configuration_note": "Recorded task settings; configure robot, camera identities and home pose for the local setup before use."
+}

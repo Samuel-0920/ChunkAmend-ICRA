@@ -1,4 +1,4 @@
-# ChunkAmend
+# ChunkAmend · 真机部署版
 
 **Correcting Action Chunks with Execution Feedback**
 
@@ -6,7 +6,7 @@
 
 ChunkAmend 是面向动作块策略的执行时修正方法。它利用已经完成的指令与实际反馈，估计局部六输入、三输出位移模型，为新预测的动作前缀构造有界修正，并在有效的执行边界接纳修正结果。该过程不改变策略模型的权重。
 
-本仓库公开论文对应的核心实现，以及仿真和 UF850 真机的执行配置。
+本仓库公开 ChunkAmend 核心算法、仿真与 UF850 真机执行配置、数据采集与训练脚本，以及三个任务的微调 checkpoint。**不公开数据集。**
 
 ## 公开内容
 
@@ -17,7 +17,11 @@ ChunkAmend 是面向动作块策略的执行时修正方法。它利用已经完
 | [真机实现](chunkamend/hardware/) | 数值核心、预留执行边界的调度器、已完成反馈契约和关节动作坐标转换 |
 | [配置文件](configs/) | 选定的修正参数及两种场景的执行设置 |
 | [实现说明](docs/IMPLEMENTATION.md) | 修正范围、动作约定和调度语义 |
-| [环境说明](ENVIRONMENT.md) | 已公开 CPU 核心的固定依赖版本 |
+| [数据采集](real_robot/collection/) | 三任务 Quest/WebXR 遥操作、双相机录制、归位及回合整理脚本 |
+| [训练代码](real_robot/training/) | 三任务训练配置、OpenPI 源码快照、预处理及训练入口 |
+| [任务配置](real_robot/task_configs/) | 任务描述、原场景参考起点、动作约定及归一化参数 |
+| [模型权重](checkpoints/README.md) | 三任务 step-9999 checkpoint、Release 下载及 SHA-256 校验 |
+| [环境说明](ENVIRONMENT.md) | 核心依赖版本和各任务训练依赖锁文件 |
 
 两套数值源码分别保留各自场景的实现，由统一入口选择论文配置；策略推理和动作执行通过回调接口接入。
 
@@ -49,8 +53,10 @@ ChunkAmend 是面向动作块策略的执行时修正方法。它利用已经完
 
 ## 发布范围
 
-本次公开核心算法源码，不包含任务微调权重、自采数据集、训练流水线、原始实验日志及设备部署文件。上游模型代码和公开 π0.5 权重见 [OpenPI](https://github.com/Physical-Intelligence/openpi)。
+公开权重对应三个任务：柠檬放入篮子、水果归纳、柠檬放入高脚杯。每个 checkpoint 包含推理参数和匹配的归一化统计，不包含优化器状态。π0.5 基础模型来自 [OpenPI](https://github.com/Physical-Intelligence/openpi)，任务权重由本项目自采示教数据微调得到。
+
+脚本用途和来源见[真机组件说明](real_robot/README.md)。机器人地址、相机绑定及初始位姿是原实验场景的配置，需要按实际设备设置。原始示教、数据集压缩包、录制图片和视频、实验日志均不上传；此次代码发布未在另一台机器上重新执行完整训练或真机验证。
 
 ## 许可与归属
 
-源码采用 [Apache License 2.0](LICENSE)。本项目实现、上游组件及各方法原论文的归属见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+项目源码采用 [Apache License 2.0](LICENSE)；checkpoint 同时保留适用的[模型条款与 Gemma 声明](MODEL_LICENSE.md)。本项目实现、上游组件及各方法原论文的归属见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

@@ -1,4 +1,4 @@
-# ChunkAmend
+# ChunkAmend · Real-Robot Deployment
 
 **Correcting Action Chunks with Execution Feedback**
 
@@ -6,7 +6,7 @@ English · [简体中文](README.zh-CN.md)
 
 ChunkAmend is an execution-time correction method for action-chunking policies. It uses completed command–response pairs to estimate a local six-input, three-output displacement model, then constructs a bounded correction to the incoming action prefix. The correction is adopted only at its valid execution boundary. Policy weights remain unchanged.
 
-This repository contains the core implementation and the simulation and UF850 execution settings associated with the paper.
+This repository contains ChunkAmend's algorithm core, simulation and UF850 execution settings, the real-robot data-collection and training scripts, and three fine-tuned task checkpoints. **Datasets are not distributed.**
 
 ## Released components
 
@@ -17,7 +17,11 @@ This repository contains the core implementation and the simulation and UF850 ex
 | [Hardware](chunkamend/hardware/) | Numerical kernels, reserved-boundary executor, completed-feedback contracts, and joint-action coordinate conversion |
 | [Configurations](configs/) | Selected correction parameters and domain-specific execution settings |
 | [Implementation notes](docs/IMPLEMENTATION.md) | Correction scope, action conventions, and scheduling semantics |
-| [Environment](ENVIRONMENT.md) | Fixed dependencies for the released CPU core |
+| [Data collection](real_robot/collection/) | Task-specific Quest/WebXR teleoperation, dual-camera recording, reset and episode curation scripts |
+| [Training](real_robot/training/) | Three task configurations, OpenPI source snapshots, preprocessing and training entry points |
+| [Task configurations](real_robot/task_configs/) | Prompts, saved reference poses, action conventions and normalization statistics |
+| [Checkpoints](checkpoints/README.md) | Three step-9999 task models, release downloads and SHA-256 verification |
+| [Environment](ENVIRONMENT.md) | Core dependencies and task-specific training lock files |
 
 The two numerical source trees retain their respective domain implementations. A common factory selects the paper configuration; inference and execution are supplied through callbacks.
 
@@ -49,8 +53,10 @@ These names identify the comparison configurations. TE uses π0.5 predictions wi
 
 ## Release scope
 
-This is a source release of the core algorithm. Task-specific checkpoints, self-collected datasets, training pipelines, raw experiment logs, and device deployment assets are not included. Upstream model code and public π0.5 checkpoints are provided by [OpenPI](https://github.com/Physical-Intelligence/openpi).
+The released checkpoints cover lemon-to-basket, fruit organization, and lemon-to-goblet. They contain inference parameters and the matching normalization statistics; optimizer state is not included. The public π0.5 base model comes from [OpenPI](https://github.com/Physical-Intelligence/openpi); these task checkpoints were fine-tuned on this project's self-collected demonstrations.
+
+See the [real-robot component index](real_robot/README.md) for script roles and source boundaries. Recorded robot addresses, camera bindings and home poses belong to the original setup and require local configuration. Raw demonstrations, dataset archives, recorded images/videos and experimental logs are excluded. This release does not claim a new end-to-end deployment validation on another machine.
 
 ## License and attribution
 
-The source is distributed under the [Apache License 2.0](LICENSE). Project contributions, upstream components, and method references are described in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Project source is distributed under the [Apache License 2.0](LICENSE). Checkpoints also carry the applicable [model terms and Gemma notices](MODEL_LICENSE.md). Project contributions, upstream components, and method references are described in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
