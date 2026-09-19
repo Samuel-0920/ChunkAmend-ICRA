@@ -1,0 +1,20 @@
+name: Publish model-only checkpoints
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        task: [task1, task2, task3]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pack verified model members only
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MODEL_ARCHIVE: ${{ secrets[format('MODEL_ARCHIVE_{0}', matrix.task)] }}
+        run: python3 tools/release_checkpoint_archive.py
