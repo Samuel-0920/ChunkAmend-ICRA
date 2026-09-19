@@ -1,6 +1,6 @@
-# ChunkAmend Reproduction
+# ChunkAmend — ICRA Paper
 
-Reproduction materials for simulation and UF850 hardware experiments.
+ICRA paper companion for simulation and UF850 hardware experiments. This is a separate release from the existing thesis implementation repository.
 
 ## Status
 
